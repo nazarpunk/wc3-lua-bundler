@@ -1,0 +1,13 @@
+{
+  "name": "wc3-lua-bundler",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [],
+  "author": "nazarpunk",
+  "contributors": [],
+  "license": "UNLICENSED",
+  "type": "module",
+  "devDependencies": {
+    "luabundle": "^1.6.0"
+  }
+}
