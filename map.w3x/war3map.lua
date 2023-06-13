@@ -1,3 +1,5 @@
+gg_trg_trig1 = nil
+gg_trg_trig2 = nil
 function InitGlobals()
 end
 
@@ -9,7 +11,7 @@ local unitID
 local t
 local life
 
-u = BlzCreateUnitWithSkin(p, FourCC("Udre"), -161.3, -307.6, -62.916, FourCC("Udre"))
+u = BlzCreateUnitWithSkin(p, FourCC("Udre"), -161.3, -307.6, 297.084, FourCC("Udre"))
 end
 
 function CreatePlayerBuildings()
@@ -26,6 +28,33 @@ end
 
 -- CUSTOM CODE
 print('CC')
+function Trig_trig1_Actions()
+end
+
+function InitTrig_trig1()
+gg_trg_trig1 = CreateTrigger()
+TriggerAddAction(gg_trg_trig1, Trig_trig1_Actions)
+end
+
+function Trig_trig2_Actions()
+FogEnableOn()
+end
+
+function InitTrig_trig2()
+gg_trg_trig2 = CreateTrigger()
+TriggerAddAction(gg_trg_trig2, Trig_trig2_Actions)
+end
+
+function InitCustomTriggers()
+InitTrig_trig1()
+InitTrig_trig2()
+end
+
+function RunInitializationTriggers()
+ConditionalTriggerExecute(gg_trg_trig1)
+ConditionalTriggerExecute(gg_trg_trig2)
+end
+
 function InitCustomPlayerSlots()
 SetPlayerStartLocation(Player(0), 0)
 SetPlayerColor(Player(0), ConvertPlayerColor(0))
@@ -48,6 +77,8 @@ SetMapMusic("Music", true, 0)
 CreateAllUnits()
 InitBlizzard()
 InitGlobals()
+InitCustomTriggers()
+RunInitializationTriggers()
 end
 
 function config()
