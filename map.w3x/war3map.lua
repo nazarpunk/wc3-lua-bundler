@@ -1,9 +1,9 @@
-gg_trg_trig1 = nil
-gg_trg_trig2 = nil
+udg_unit = nil
+gg_trg_udg = nil
+gg_unit_Udre_0002 = nil
 function InitGlobals()
 end
 
-print('main')
 function CreateUnitsForPlayer0()
 local p = Player(0)
 local u
@@ -11,7 +11,14 @@ local unitID
 local t
 local life
 
-u = BlzCreateUnitWithSkin(p, FourCC("Udre"), -161.3, -307.6, 297.084, FourCC("Udre"))
+u = BlzCreateUnitWithSkin(p, FourCC("hfoo"), 15.7, 160.0, 273.733, FourCC("hfoo"))
+gg_unit_Udre_0002 = BlzCreateUnitWithSkin(p, FourCC("Udre"), -161.3, -307.6, 297.084, FourCC("Udre"))
+u = BlzCreateUnitWithSkin(p, FourCC("hfoo"), -348.2, 38.8, 72.347, FourCC("hfoo"))
+u = BlzCreateUnitWithSkin(p, FourCC("hfoo"), -515.4, -282.4, 50.451, FourCC("hfoo"))
+u = BlzCreateUnitWithSkin(p, FourCC("hfoo"), -469.1, -682.0, 339.971, FourCC("hfoo"))
+u = BlzCreateUnitWithSkin(p, FourCC("hfoo"), 13.0, -817.8, 161.086, FourCC("hfoo"))
+u = BlzCreateUnitWithSkin(p, FourCC("hfoo"), 316.8, -666.8, 49.297, FourCC("hfoo"))
+u = BlzCreateUnitWithSkin(p, FourCC("hfoo"), 399.1, -393.9, 277.172, FourCC("hfoo"))
 end
 
 function CreatePlayerBuildings()
@@ -28,31 +35,21 @@ end
 
 -- CUSTOM CODE
 print('CC')
-function Trig_trig1_Actions()
+function Trig_udg_Actions()
+udg_unit = gg_unit_Udre_0002
 end
 
-function InitTrig_trig1()
-gg_trg_trig1 = CreateTrigger()
-TriggerAddAction(gg_trg_trig1, Trig_trig1_Actions)
-end
-
-function Trig_trig2_Actions()
-FogEnableOn()
-end
-
-function InitTrig_trig2()
-gg_trg_trig2 = CreateTrigger()
-TriggerAddAction(gg_trg_trig2, Trig_trig2_Actions)
+function InitTrig_udg()
+gg_trg_udg = CreateTrigger()
+TriggerAddAction(gg_trg_udg, Trig_udg_Actions)
 end
 
 function InitCustomTriggers()
-InitTrig_trig1()
-InitTrig_trig2()
+InitTrig_udg()
 end
 
 function RunInitializationTriggers()
-ConditionalTriggerExecute(gg_trg_trig1)
-ConditionalTriggerExecute(gg_trg_trig2)
+ConditionalTriggerExecute(gg_trg_udg)
 end
 
 function InitCustomPlayerSlots()
