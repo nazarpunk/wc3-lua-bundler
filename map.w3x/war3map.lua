@@ -33,8 +33,6 @@ CreatePlayerBuildings()
 CreatePlayerUnits()
 end
 
--- CUSTOM CODE
-print('CC')
 function Trig_udg_Actions()
 udg_unit = gg_unit_Udre_0002
 end
