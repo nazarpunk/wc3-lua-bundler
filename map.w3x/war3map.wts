@@ -1,6 +1,6 @@
 ﻿STRING 1
 {
-test
+Название
 }
 
 STRING 2
@@ -11,5 +11,35 @@ Player 1
 STRING 3
 {
 Force 1
+}
+
+STRING 4
+{
+Игроков: 12
+}
+
+STRING 5
+{
+Описание
+}
+
+STRING 6
+{
+Автор
+}
+
+STRING 7
+{
+Заголовок
+}
+
+STRING 8
+{
+Подзаголовок
+}
+
+STRING 9
+{
+Описание.
 }
 
