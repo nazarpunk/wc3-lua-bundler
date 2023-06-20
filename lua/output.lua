@@ -1,7 +1,3 @@
-local InitGlobalsOrigin = InitGlobals
-function InitGlobals()
-
-InitGlobalsOrigin()
 -- Bundled by luabundle {"version":"1.6.0"}
 local __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)
 	local loadingPlaceholder = {[{}] = true}
@@ -52,11 +48,11 @@ __bundle_register("lua/a", function(require, _LOADED, __bundle_register, __bundl
 local b = require("lua/b")
 print(b)
 
+
+local bb = require("lua/b")
+print(bb)
 local a = { 'a', 1, 2, 3, 4, 5 }
 return a
-
-
-
 end)
 __bundle_register("lua/b", function(require, _LOADED, __bundle_register, __bundle_modules)
 local b = { 'a', 1, 2, 3, 4 }
@@ -64,5 +60,3 @@ local b = { 'a', 1, 2, 3, 4 }
 return b
 end)
 return __bundle_require("__root")
-
-end
