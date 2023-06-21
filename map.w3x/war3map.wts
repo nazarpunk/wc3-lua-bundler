@@ -43,3 +43,27 @@ STRING 9
 Описание.
 }
 
+STRING 10
+// Units: Udre (Вомпир), Name (Name)
+{
+Вомпир
+}
+
+STRING 11
+// Units: hfo1 (Похотинец), Name (Name)
+{
+Похотинец
+}
+
+STRING 12
+// Doodads: OOal (Алтарь), Name (Name)
+{
+Алтарь
+}
+
+STRING 13
+// Doodads: NOb1 (Мыши), Name (Name)
+{
+Мыши
+}
+
