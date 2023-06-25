@@ -67,3 +67,97 @@ STRING 13
 Мыши
 }
 
+STRING 14
+// Abilities: ANcl (Канал), EditorSuffix (Editor Suffix)
+{
+test
+}
+
+STRING 15
+// Units: Udre (Вомпир), Hotkey (Hotkey)
+{
+D
+}
+
+STRING 16
+// Abilities: ANcl (Канал), Unhotkey (Hotkey - Turn Off)
+{
+E
+}
+
+STRING 17
+// Abilities: ANcl (Канал), Name (Name)
+{
+Канал
+}
+
+STRING 18
+{
+Player 2
+}
+
+STRING 19
+{
+Force 2
+}
+
+STRING 20
+// Units: Udre (Вомпир), Description (Description)
+{
+Описание
+}
+
+STRING 21
+// Units: Udre (Вомпир), EditorSuffix (Name - Editor Suffix)
+{
+Суффикс
+}
+
+STRING 22
+// Units: Udre (Вомпир), Tip (Tooltip - Basic)
+{
+Призвать повелителя ужаса нахуй
+}
+
+STRING 23
+// Units: Udre (Вомпир), Ubertip (Tooltip - Extended)
+{
+Ловкий герой, мастер манипуляции. Может изучить «Темную стаю», «Сон», «Вампирическую ауру» и «Инферно». |n|n|cffffcc00Атакует наземные цели.|r Козёл!
+}
+
+STRING 24
+// Abilities: ANcl (Канал), Hotkey (Hotkey - Normal)
+{
+D
+}
+
+STRING 25
+// Items: dsum (Алмаз призыва.), Description (Description)
+{
+Телепортирует ваши войска к герою
+}
+
+STRING 26
+// Items: dsum (Алмаз призыва.), Hotkey (Hotkey)
+{
+T
+}
+
+STRING 27
+// Items: dsum (Алмаз призыва.), Name (Name)
+{
+Алмаз призыва.
+}
+
+STRING 28
+// Items: dsum (Алмаз призыва.), Tip (Tooltip - Basic)
+{
+Купить алмаз призыва.
+}
+
+STRING 29
+// Items: dsum (Алмаз призыва.), Ubertip (Tooltip - Extended)
+{
+При использовании переносит до <AUds,DataA1> воинов игрока из указанной области к герою
+}
+
