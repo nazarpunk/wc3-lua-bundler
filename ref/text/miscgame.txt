@@ -1,8 +1,8 @@
 [Misc]
-MagicImmunesResistDamage=1
-MagicImmunesResistThorns=0
-MagicImmunesResistLeech=0
-MagicImmunesResistUltimates=0
+MagicImmunesResistDamage=0
+MagicImmunesResistThorns=1
+MagicImmunesResistLeech=1
+MagicImmunesResistUltimates=1
 CycloneStasis=0
 DepCheckAlias=1
 MassTeleportCluster=1
@@ -10,13 +10,13 @@ DarkSummoningCluster=1
 TownPortalCluster=1
 AmuletOfRecallCluster=1
 MorphLandClosest=1
-MorphAlternateDisable=0
+MorphAlternateDisable=1
 InvulnSummonDispelDamage=0
 ConstructionDamageRefundPenalty=1
 UpgradeDamageRefundPenalty=0
 AllowMultiBounce=0
-EnsnareIsMagic=0
-WebIsMagic=0
+EnsnareIsMagic=1
+WebIsMagic=1
 IllusionsGetAttackBonus=1
 IllusionsGetAttackSpeedBonus=1
 IllusionsGetMoveSpeedBonus=1
@@ -58,18 +58,18 @@ CanDeactivateStoneForm=1
 CanDeactivateSubmerge=1
 CanDeactivateWindWalk=0
 RelativeUpgradeCost=0
-DefendDeflection=1
+DefendDeflection=0
 ItemSaleAggroRange=0
 UnitSaleAggroRange=600
 AbilSaleAggroRange=0
 AbolishMagicDispelSmart=1
 UpgradeInProgressIdChange=0
 
-GlobalExperience=1
-MaxLevelHeroesDrainExp=1
-BuildingKillsGiveExp=0
+GlobalExperience=0
+MaxLevelHeroesDrainExp=0
+BuildingKillsGiveExp=1
 
-DisplayEnemyInventory=1
+DisplayEnemyInventory=0
 DisplayBuildingStatus=0
 
 // Max revival cost of a hero
@@ -104,20 +104,14 @@ ReviveLevelFactor=.10
 ReviveBaseLumberFactor=0
 ReviveLumberLevelFactor=0
 ReviveMaxFactor=4.0
-ReviveTimeFactor=0.60
+ReviveTimeFactor=0.65
 ReviveMaxTimeFactor=2.0
-
-AwakenBaseFactor=.80
-AwakenLevelFactor=.20
-AwakenBaseLumberFactor=.80
-AwakenLumberLevelFactor=.20
-AwakenMaxFactor=8.0
 
 // Note: Maps saved with a Reign of Chaos version of the editor will use 25 for the
 //  min unit speed value since it wasn't increased to 150 until Frozen Throne.
-MinUnitSpeed=150
+MinUnitSpeed=10
 MaxUnitSpeed=400
-MinBldgSpeed=25
+MinBldgSpeed=10
 MaxBldgSpeed=400
 
 FrostMoveSpeedDecrease=0.5
@@ -130,7 +124,7 @@ MaxUnitLevel=20
 NeedHeroXP=200
 GrantHeroXP=100,120,160,220,300
 GrantNormalXP=25
-HeroFactorXP=80,70,60,50,0
+HeroFactorXP=100
 SummonedKillFactor=0.5
 StrAttackBonus=1.0
 StrHitPointBonus=25
@@ -172,7 +166,7 @@ DropItemRange=100
 GiveItemRange=150
 PickupItemRange=150
 PawnItemRange=300
-PawnItemRate=0.60
+PawnItemRate=0.50
 
 // combat related entries
 CallForHelp=600
@@ -180,13 +174,14 @@ CreepCallForHelp=600
 DefenseArmor=0.06
 
 // Damage bonus lists: SMALL, MEDIUM, LARGE, FORT, NORMAL, HERO, DIVINE, NONE
-DamageBonusNormal=1.00,1.50,1.00,0.70,1.00,1.00,0.05,1.00
-DamageBonusPierce=2.00,0.75,1.00,0.35,1.00,0.50,0.05,1.50
-DamageBonusSiege=1.00,0.50,1.00,1.50,1.00,0.50,0.05,1.50
-DamageBonusMagic=1.25,0.75,2.00,0.35,1.00,0.50,0.05,1.00
+DamageBonusNormal=1.50,1.00,1.00,0.50,1.00,1.00,0.05,1.00
+DamageBonusPierce=0.75,1.00,1.50,0.35,1.00,0.50,0.05,1.50
+DamageBonusSiege=0.50,1.00,1.00,1.50,1.00,0.50,0.05,1.50
+DamageBonusMagic=1.00,2.00,1.00,0.35,1.00,0.50,0.05,1.00
 DamageBonusChaos=1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-DamageBonusSpells=1.00,1.00,1.00,1.00,1.00,0.70,0.05,1.00
+DamageBonusSpells=1.00,1.00,1.00,1.00,1.00,0.75,0.05,1.00
 DamageBonusHero=1.00,1.00,1.00,0.50,1.00,1.00,0.05,1.00
+
 
 // Ethereal Damage bonus values: NORMAL, PIERCE, SIEGE, MAGIC, CHAOS, SPELLS, HERO
 EtherealDamageBonus=0,0,0,1.66,0,1.66,0
@@ -212,7 +207,5 @@ TrainRefundRate=1.0		// currently applied regardless of location in queue
 UpgradeRefundRate=0.75		// for a cancelled structure upgrade
 
 ConstructionLifeDrainRate=10.0	// hp per second drained when building construction is halted
-
-MissDamageReduction=0.5
 ShowHideUnitsInTransport=1
-NeutralBuildingPollPeriod=0.5
+NeutralBuildingPollPeriod=2.0

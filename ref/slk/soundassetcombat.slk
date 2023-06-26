@@ -1,0 +1,16 @@
+ID;PWXL;N;E
+B;X12;Y2;D0
+C;X1;Y1;K"AssetLabel"
+C;X2;K"Filepath"
+C;X3;K"StringID"
+C;X4;K"FacialAnimationGroupLabel"
+C;X5;K"FacialAnimationLabel"
+C;X6;K"FacialAnimationSetFilepath"
+C;X7;K"Flags"
+C;X8;K"Comments"
+C;X9;K"ConversationLabel(Generated)"
+C;X10;K"ConversationOrder(Generated)"
+C;X11;K"From(Generated)"
+C;X12;K"To(Generated)"
+C;X1;Y2;K"_"
+E

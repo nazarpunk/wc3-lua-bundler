@@ -1,0 +1,25 @@
+[Listener]
+ListenerDistance=1675,1585,1495,1405,1315,1225
+ListenerAOA=90,85,80,75,70,65
+ListenerMaxCinematicDistance=1500
+ListenerAngleCorrection=70,68,66,64,62,60
+
+[SoundGeneral]
+MasterChannelVolume=0.9
+//Spread of 3d sound in speaker space.
+Global3DSpread=30
+ThematicMusicFadeOutRate=10
+
+[UnitSounds]
+//Configures the 3D/2D mix of unit dialogues, 1.0 = full 3D, 0 = full 2D
+Unit3DPanLevel=0.5
+
+//Speaker mix of the 2D portion of unit dialogues.
+SpeakerFL=0.6
+SpeakerFR=0.6
+SpeakerC=0.4
+SpeakerLF=0
+SpeakerBL=0
+SpeakerBR=0
+SpeakerSL=0
+SpeakerSR=0

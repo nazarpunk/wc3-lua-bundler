@@ -12,7 +12,6 @@ Buttonpos=0,1
 Missileart=Abilities\Weapons\FireBallMissile\FireBallMissile.mdl
 Missilearc=0.15
 Missilespeed=900
-MissileHoming=1
 MovementSoundLabel=HumanHeroArchMageMovement
 LoopingSoundFadeIn=512
 LoopingSoundFadeOut=512
@@ -36,23 +35,10 @@ ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-paladin.blp
 Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-paladin.blp
 
-[Hdgo]
-Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-paladin.blp
-
-[Hmgd]
-Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-paladin.blp
-
-[Hhkl]
-Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-paladin.blp
-
 [Hjai]
 Missileart=Abilities\Weapons\FireBallMissile\FireBallMissile.mdl
 Missilearc=0.15
 Missilespeed=900
-MissileHoming=1
 Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-jaina.blp
 
@@ -64,42 +50,8 @@ ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-mountainking.blp
 Missileart=Abilities\Weapons\MoonPriestessMissile\MoonPriestessMissile.mdl
 Missilearc=0.15
 Missilespeed=900
-MissileHoming=1
 Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-sylvanus.blp
-
-// Kael
-[Hkal]
-Buttonpos=0,1
-Missileart=Abilities\Weapons\BloodElfMissile\BloodElfMissile.mdl
-Missilearc=0.15
-Missilespeed=900
-MissileHoming=1
-Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-sorceror.blp
-
-// Lady Vashj
-[Hvsh]
-Buttonpos=0,0
-Specialart=Objects\Spawnmodels\Demon\DemonLargeDeathExplode\DemonLargeDeathExplode.mdl
-Missileart=Abilities\Weapons\NagaArrowMissile\NagaArrowMissile.mdl
-Missilearc=0.08
-Missilespeed=1200
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-seawitch.blp
-
-// Lord Garithos
-[Hlgr]
-Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-garithos.blp
-
-// Arcane Observatory
-[haro]
-Buttonpos=1,2
-BuildingSoundLabel=NightElfGrowingLoop
-LoopingSoundFadeIn=512
-LoopingSoundFadeOut=512
-Attachmentanimprops=large
-Specialart=Objects\Spawnmodels\NightElf\NECancelDeath\NECancelDeath.mdl
 
 [hcth]
 Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
@@ -111,34 +63,11 @@ Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplo
 Attachmentanimprops=medium
 Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
 
-[hbew]
-Attachmentanimprops=medium
-
-// Admiral Proudmoore
-[Hapm]
-Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-paladin.blp
-
-[hrdh]
-Attachmentanimprops=medium
-Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
-
-// ghostly archmage
-[Hgam]
-Buttonpos=0,1
-Missileart=Abilities\Weapons\FireBallMissile\FireBallMissile.mdl
-Missilearc=0.15
-Missilespeed=900
-MissileHoming=1
-Attachmentanimprops=medium
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-archmage.blp
-
 // Orc Units
 [Othr]
 Missileart=Abilities\Weapons\FarseerMissile\FarseerMissile.mdl
 Missilearc=0.15
 Missilespeed=1200
-MissileHoming=1
 Attachmentanimprops=medium
 Specialart=Objects\Spawnmodels\Orc\OrcLargeDeathExplode\OrcLargeDeathExplode.mdl
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-thrall.blp
@@ -147,7 +76,6 @@ ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-thrall.blp
 Missileart=Abilities\Weapons\FarseerMissile\FarseerMissile.mdl
 Missilearc=0.15
 Missilespeed=1200
-MissileHoming=1
 Attachmentanimprops=medium
 Specialart=Objects\Spawnmodels\Orc\OrcLargeDeathExplode\OrcLargeDeathExplode.mdl
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-thrall.blp
@@ -165,12 +93,6 @@ Attachmentanimprops=medium
 Specialart=Objects\Spawnmodels\Orc\OrcLargeDeathExplode\OrcLargeDeathExplode.mdl
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-taurenchieftain.blp
 
-//expansion version of cairne bloodhoof
-[Ocb2]
-Attachmentanimprops=medium
-Specialart=Objects\Spawnmodels\Orc\OrcLargeDeathExplode\OrcLargeDeathExplode.mdl
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-taurenchieftain.blp
-
 [owar]
 Specialart=Objects\Spawnmodels\Orc\OrcLargeDeathExplode\OrcLargeDeathExplode.mdl
 Attachmentanimprops=medium
@@ -184,147 +106,10 @@ Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
 
 [oosc]
 Specialart=Objects\Spawnmodels\Orc\OrcLargeDeathExplode\OrcLargeDeathExplode.mdl
-Attachmentanimprops=large
+Attachmentanimprops=medium
 
 [ownr]
 Attachmentanimprops=medium
-
-// Drak'Thul, Orc Warlock
-[odkt]
-Buttonpos=0,0
-Missileart=Abilities\Weapons\NecromancerMissile\NecromancerMissile.mdl
-Missilearc=0.00
-Missilespeed=900
-MissileHoming=1
-Specialart=Objects\Spawnmodels\Orc\OrcSmallDeathExplode\OrcSmallDeathExplode.mdl
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-guldan.blp
-
-// nazgrel, orc wolfrider
-[onzg]
-Buttonpos=0,0
-Specialart=Objects\Spawnmodels\Orc\OrcLargeDeathExplode\OrcLargeDeathExplode.mdl
-Attachmentanimprops=medium
-
-// Drek'Thar
-[Odrt]
-Buttonpos=1,2
-Missileart=Abilities\Weapons\FarseerMissile\FarseerMissile.mdl
-Missilearc=0.15
-Missilespeed=1200
-MissileHoming=1
-Specialart=Objects\Spawnmodels\Orc\OrcLargeDeathExplode\OrcLargeDeathExplode.mdl
-Attachmentanimprops=medium
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-farseer.blp
-
-// Rokhan
-[Orkn]
-Buttonpos=0,1
-Missileart=Abilities\Weapons\ShadowHunterMissile\ShadowHunterMissile.mdl
-Missilearc=0.15
-Missilespeed=900
-Attachmentanimprops=medium
-Specialart=Objects\Spawnmodels\Orc\OrcLargeDeathExplode\OrcLargeDeathExplode.mdl
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-shadowhunter.blp
-
-// mathog
-[omtg]
-Specialart=Objects\Spawnmodels\Orc\OrcLargeDeathExplode\OrcLargeDeathExplode.mdl
-Attachmentanimprops=medium
-
-// vol'jin
-[ovlj]
-Buttonpos=1,0
-Specialart=Objects\Spawnmodels\Orc\OrcSmallDeathExplode\OrcSmallDeathExplode.mdl
-Missileart=Abilities\Weapons\WitchDoctorMissile\WitchDoctorMissile.mdl
-Missilearc=0.00
-Missilespeed=900
-MissileHoming=1
-Casterupgradeart=UI\Widgets\Console\Human\infocard-witchdoctor.blp
-
-// gul'dan
-[Ogld]
-Buttonpos=0,1
-Missileart=Abilities\Weapons\SerpentWardMissile\SerpentWardMissile.mdl
-Missilearc=0.15
-Missilespeed=1500
-MissileHoming=1
-Specialart=Objects\Spawnmodels\Orc\OrcLargeDeathExplode\OrcLargeDeathExplode.mdl
-
-// Samuro
-[Osam]
-Buttonpos=0,2
-Specialart=Objects\Spawnmodels\Orc\OrcLargeDeathExplode\OrcLargeDeathExplode.mdl
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-blademaster.blp
-
-// Rexxar
-[Orex]
-Buttonpos=0,0
-Missileart=Abilities\Weapons\RexxarMissile\RexxarMissile.mdl
-Missilearc=0.15
-Missilespeed=900
-Attachmentanimprops=large
-Specialart=Objects\Spawnmodels\Demon\DemonLargeDeathExplode\DemonLargeDeathExplode.mdl
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-beastmaster.blp
-
-//Misha level 1
-[ngzc]
-Attachmentanimprops=medium
-
-//Misha level 2
-[ngzd]
-Attachmentanimprops=medium
-
-//Misha level 3
-[ngza]
-Attachmentanimprops=large
-
-//Misha level 4
-[ngz4]
-Attachmentanimprops=large
-
-//level 4 quillbeast
-[nqb4]
-Missileart=Abilities\Weapons\BristleBackMissile\BristleBackMissile.mdl
-Missilearc=0.15
-Missilespeed=1500
-Attachmentanimprops=medium
-
-
-//level 4 serpent ward
-[osp4]
-Missileart=Abilities\Weapons\SerpentWardMissile\SerpentWardMissile.mdl
-Missilearc=0.15
-Missilespeed=900
-MissileHoming=1
-
-// fire 2
-[npn4]
-
-// storm 2
-[npn5]
-Missileart=Abilities\Weapons\FarseerMissile\FarseerMissile.mdl
-Missilearc=0.15
-Missilespeed=1200
-MissileHoming=1
-
-// earth 2
-[npn6]
-
-
-// spirit wyvern
-[oswy]
-
-// gar'thok
-[ogrk]
-Buttonpos=0,0
-Specialart=Objects\Spawnmodels\Orc\OrcLargeDeathExplode\OrcLargeDeathExplode.mdl
-
-// actual orc juggernaut unit
-[ojgn]
-Missileart=Abilities\Weapons\FireBallMissile\FireBallMissile.mdl
-Missilearc=0.15
-Missilespeed=900
-Attachmentanimprops=large
 
 // Undead Units
 [Uear]
@@ -336,7 +121,6 @@ ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-deathknight.blp
 Missileart=Abilities\Weapons\LichMissile\LichMissile.mdl
 Missilearc=0.0
 Missilespeed=900
-MissileHoming=1
 Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-lich.blp
 
@@ -350,55 +134,18 @@ Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathEx
 Attachmentanimprops=medium
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-tichondrius.blp
 
-[Uvar]
-Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
-Attachmentanimprops=medium
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-dreadlord.blp
-
-[Udth]
-Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
-Attachmentanimprops=medium
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-dreadlord.blp
-
-[Ubal]
-Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
-Attachmentanimprops=medium
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-tichondrius.blp
-
-[Uvng]
-Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
-Attachmentanimprops=medium
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-dreadlord.blp
-
-[Uanb]
-Buttonpos=0,1
-Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
-Attachmentanimprops=medium
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-cryptlord.blp
-
 [uktn]
 Missileart=Abilities\Weapons\NecromancerMissile\NecromancerMissile.mdl
 Missilearc=0.00
 Missilespeed=900
-MissileHoming=1
 Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
-
-// Evil Sylvanas
-[Usyl]
-Buttonpos=0,0
-Specialart=Objects\Spawnmodels\Demon\DemonLargeDeathExplode\DemonLargeDeathExplode.mdl
-Missileart=Abilities\Weapons\Arrow\ArrowMissile.mdl
-Missilearc=0.15
-Missilespeed=900
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-bansheeranger.blp
 
 [uktg]
 
 [Uwar]
 Missileart=Abilities\Weapons\DemonHunterMissile\DemonHunterMissile.mdl
 Missilearc=0.0
-Missilespeed=900
-MissileHoming=1
+//Missilespeed=900
 Attachmentanimprops=medium
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-archimonde.blp
 
@@ -408,30 +155,7 @@ Buttonpos=1,0
 Missileart=Abilities\Weapons\BansheeMissile\BansheeMissile.mdl
 Missilearc=0.00
 Missilespeed=900
-MissileHoming=1
 Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
-
-// air barge
-[uarb]
-Buttonpos=0,0
-Attachmentanimprops=large
-
-[ushp]
-Sellunits=ubot,udes
-
-[ubdr]
-Attachmentanimprops=large
-Missileart=Abilities\Weapons\FrostWyrmMissile\FrostWyrmMissile.mdl
-Missilearc=0.1
-Missilespeed=800
-
-[ubdd]
-Buttonpos=0,0
-Missileart=Abilities\Weapons\FrostWyrmMissile\FrostWyrmMissile.mdl
-Missilearc=0.1
-Missilespeed=800
-MissileHoming=1
-Attachmentanimprops=large
 
 // Night Elf Units
 [Eill]
@@ -442,8 +166,7 @@ ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-demonhunter.blp
 [Eilm]
 Missileart=Abilities\Weapons\DemonHunterMissile\DemonHunterMissile.mdl
 Missilearc=0.0
-Missilespeed=900
-MissileHoming=1
+//Missilespeed=900
 Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
 Attachmentanimprops=medium
 Attachmentlinkprops=alternate
@@ -453,8 +176,7 @@ ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-demonhunter.blp
 [Eidm]
 Missileart=Abilities\Weapons\DemonHunterMissile\DemonHunterMissile.mdl
 Missilearc=0.0
-Missilespeed=900
-MissileHoming=1
+//Missilespeed=900
 Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
 Attachmentanimprops=medium
 Attachmentlinkprops=alternate
@@ -465,7 +187,6 @@ ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-demonhunter.blp
 Missileart=Abilities\Weapons\KeeperGroveMissile\KeeperGroveMissile.mdl
 Missilearc=0.10
 Missilespeed=1300
-MissileHoming=1
 Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
 Attachmentanimprops=large
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-keeperofthegrove.blp
@@ -474,7 +195,6 @@ ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-keeperofthegrove.blp
 Missileart=Abilities\Weapons\KeeperGroveMissile\KeeperGroveMissile.mdl
 Missilearc=0.10
 Missilespeed=1300
-MissileHoming=1
 Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
 Attachmentanimprops=large
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-keeperofthegrove.blp
@@ -483,67 +203,8 @@ ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-keeperofthegrove.blp
 Missileart=Abilities\Weapons\KeeperGroveMissile\KeeperGroveMissile.mdl
 Missilearc=0.10
 Missilespeed=900
-MissileHoming=1
 Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-furion.blp
-
-// Malfurion
-[Emfr]
-Missileart=Abilities\Weapons\KeeperGroveMissile\KeeperGroveMissile.mdl
-Missilearc=0.10
-Missilespeed=900
-MissileHoming=1
-Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-furion.blp
-
-[Emns]
-Missileart=Abilities\Weapons\KeeperGroveMissile\KeeperGroveMissile.mdl
-Missilearc=0.10
-Missilespeed=900
-MissileHoming=1
-Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-furion.blp
-
-// Maiev
-[Ewrd]
-Buttonpos=0,1
-Missileart=Abilities\Weapons\WardenMissile\WardenMissile.mdl
-Missilearc=0.15
-Missilespeed=900
-Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
-Attachmentanimprops=medium
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-warden.blp
-
-// evil illidan morphed
-[Eevm]
-Missileart=Abilities\Weapons\DemonHunterMissile\DemonHunterMissile.mdl
-Missilearc=0.0
-Missilespeed=900
-MissileHoming=1
-Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
-Attachmentanimprops=medium
-Attachmentlinkprops=alternate
-Animprops=alternateex
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-demonhunter.blp
-
-// evil illidan
-[Eevi]
-DependencyOr=Eevm
-Missileart=Abilities\Weapons\IllidanMissile\IllidanMissile.mdl
-Missilearc=0.0
-Missilespeed=900
-MissileHoming=1
-Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-demonhunter.blp
-
-// Naisha
-[ensh]
-Buttonpos=1,0
-Missileart=Abilities\Weapons\SentinelMissile\SentinelMissile.mdl
-Missilearc=0.10
-Missilespeed=900
-Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
-Attachmentanimprops=medium
 
 [eshd]
 Missileart=Abilities\Weapons\Arrow\ArrowMissile.mdl
@@ -555,21 +216,21 @@ Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeD
 Missileart=Abilities\Weapons\MoonPriestessMissile\MoonPriestessMissile.mdl
 Missilearc=0.15
 Missilespeed=900
-MissileHoming=1
 Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
 Attachmentanimprops=medium
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-priestessofthemoon.blp
 
-[enec]
-Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
-
-[eilw]
-Attachmentanimprops=large
-
 // Neutral Units
 [Nbbc]
 Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-chaosblademaster.blp
+ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-blademaster.blp
+
+[nchg]
+Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
+
+[nchr]
+Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
+Attachmentanimprops=medium
 
 [nckb]
 Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
@@ -578,13 +239,6 @@ Missileart=Abilities\Weapons\Axe\AxeMissile.mdl
 Missilearc=0.15
 Missilespeed=1200
 Attachmentanimprops=large
-
-[nchg]
-Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
-
-[nchr]
-Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
-Attachmentanimprops=medium
 
 [ncpn]
 Builds=ogre,otrb,obar,ofor,oalt,obea,osld,otto,owtw
@@ -595,14 +249,12 @@ Buttonpos=0,0
 Missileart=Abilities\Weapons\FireBallMissile\FireBallMissile.mdl
 Missilearc=0.00
 Missilespeed=1100
-MissileHoming=1
 Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
 
 [nw2w]
 Missileart=Abilities\Weapons\FireBallMissile\FireBallMissile.mdl
 Missilearc=0.00
 Missilespeed=1100
-MissileHoming=1
 Specialart=Objects\Spawnmodels\Orc\OrcLargeDeathExplode\OrcLargeDeathExplode.mdl
 Casterupgradeart=UI\Widgets\Console\Human\infocard-shaman.blp
 
@@ -610,18 +262,15 @@ Casterupgradeart=UI\Widgets\Console\Human\infocard-shaman.blp
 Missileart=Abilities\Weapons\DruidoftheTalonMissile\DruidoftheTalonMissile.mdl
 Missilearc=0.15
 Missilespeed=900
-MissileHoming=1
 Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
 
 [nmdm]
 Missileart=Abilities\Weapons\DruidoftheTalonMissile\DruidoftheTalonMissile.mdl
 Missilearc=0.15
 Missilespeed=900
-MissileHoming=1
 Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
 Attachmentlinkprops=alternate
 Animprops=alternateex
-Boneprops=alternate
 
 [Nman]
 Attachmentanimprops=large
@@ -647,7 +296,6 @@ Missilespeed=1500
 Missileart=Abilities\Weapons\PriestMissile\PriestMissile.mdl
 Missilearc=0.00
 Missilespeed=900
-MissileHoming=1
 Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
 Casterupgradeart=UI\Widgets\Console\Human\infocard-priest.blp
 
@@ -690,25 +338,21 @@ Trains=nfel,ninf,nbal
 Missileart=Abilities\Weapons\FarseerMissile\FarseerMissile.mdl
 Missilearc=0.15
 Missilespeed=1200
-MissileHoming=1
 
 [negf]
 Missileart=Abilities\Weapons\RedDragonBreath\RedDragonMissile.mdl
 Missilearc=0.15
 Missilespeed=900
-MissileHoming=1
 
 [negm]
 Missileart=Abilities\Weapons\AncestralGuardianMissile\AncestralGuardianMissile.mdl
 Missilearc=0.15
 Missilespeed=1500
-MissileHoming=1
 
 [ndgt]
 Missileart=Abilities\Weapons\FarseerMissile\FarseerMissile.mdl
 Missilearc=0.15
 Missilespeed=1200
-MissileHoming=1
 
 [npgf]
 
@@ -717,9 +361,6 @@ Trains=hhes,nhea,nws1
 Researches=Rhde
 
 [nbfl]
-
-[nfnp]
-Animprops=third
 
 [ndfl]
 
@@ -799,7 +440,6 @@ Specialart=Objects\Spawnmodels\NightElf\NECancelDeath\NECancelDeath.mdl
 Missileart=Abilities\Weapons\KeeperGroveMissile\KeeperGroveMissile.mdl
 Missilearc=0.10
 Missilespeed=900
-MissileHoming=1
 Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
 
 [nwat]
@@ -812,7 +452,6 @@ Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeD
 Missileart=Abilities\Weapons\LichMissile\LichMissile.mdl
 Missilearc=0.0
 Missilespeed=900
-MissileHoming=1
 Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-lich.blp
 
@@ -840,10 +479,8 @@ Missilearc=0.15
 Missilespeed=900
 
 [zzrg]
-Specialart=Objects\Spawnmodels\Demon\DemonLargeDeathExplode\DemonLargeDeathExplode.mdl
 
 [zhyd]
-Specialart=Objects\Spawnmodels\Demon\DemonLargeDeathExplode\DemonLargeDeathExplode.mdl
 Missileart=Abilities\Weapons\HydraliskImpact\HydraliskImpact.mdl
 Missilearc=0.0
 Missilespeed=1900
@@ -859,474 +496,4 @@ Missilearc=0.15
 Missilespeed=900
 
 [zshv]
-
-// naga units/buildings
-[nmpe]
-Builds=nnfm,nntg,nntt,nnsg,nnsa,nnad
-Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
-Buttonpos=0,0
-
-[nnfm]
-BuildingSoundLabel=NagaConstructionLoop
-LoopingSoundFadeIn=512
-LoopingSoundFadeOut=512
-Specialart=Objects\Spawnmodels\Naga\NagaDeath\NagaDeath.mdl
-Buttonpos=2,0
-
-[nntg]
-Missileart=Abilities\Weapons\FarseerMissile\FarseerMissile.mdl
-Missilearc=0.15
-Missilespeed=1200
-MissileHoming=1
-BuildingSoundLabel=NagaConstructionLoop
-LoopingSoundFadeIn=512
-LoopingSoundFadeOut=512
-Specialart=Objects\Spawnmodels\Naga\NagaDeath\NagaDeath.mdl
-Buttonpos=3,0
-
-[nntt]
-Trains=nmpe,nnmg
-Researches=Rnat,Rnam,Rnsb
-Buttonpos=0,0
-BuildingSoundLabel=NagaConstructionLoop
-LoopingSoundFadeIn=512
-LoopingSoundFadeOut=512
-Specialart=Objects\Spawnmodels\Naga\NagaDeath\NagaDeath.mdl
-Attachmentanimprops=large
-
-[nnsg]
-Trains=nmyr,nsnp,nhyc
-Researches=Rnen
-Buttonpos=1,0
-BuildingSoundLabel=NagaConstructionLoop
-LoopingSoundFadeIn=512
-LoopingSoundFadeOut=512
-Specialart=Objects\Spawnmodels\Naga\NagaDeath\NagaDeath.mdl
-Attachmentanimprops=medium
-
-[nnsa]
-Trains=nnsw,nwgs
-Researches=Rnsw,Rnsi
-Buttonpos=0,1
-BuildingSoundLabel=NagaConstructionLoop
-LoopingSoundFadeIn=512
-LoopingSoundFadeOut=512
-Specialart=Objects\Spawnmodels\Naga\NagaDeath\NagaDeath.mdl
-Attachmentanimprops=medium
-
-[nnad]
-Buttonpos=0,0
-BuildingSoundLabel=NagaConstructionLoop
-LoopingSoundFadeIn=512
-LoopingSoundFadeOut=512
-Specialart=Objects\Spawnmodels\Naga\NagaDeath\NagaDeath.mdl
-Attachmentanimprops=medium
-Revive=1
-
-[nhyc]
-Buttonpos=0,0
-Missileart=Abilities\Weapons\AncientProtectorMissile\AncientProtectorMissile.mdl
-Missilearc=0.15
-Missilespeed=900
-Specialart=Objects\Spawnmodels\Orc\OrcLargeDeathExplode\OrcLargeDeathExplode.mdl
-Attachmentanimprops=large
-
-// mur'gul reaver (naga)
-[nnmg]
-Buttonpos=0,0
-Specialart=Objects\Spawnmodels\Demon\DemonSmallDeathExplode\DemonSmallDeathExplode.mdl
-
-// naga myrmidon
-[nmyr]
-DependencyOr=nmys
-Buttonpos=0,0
-Specialart=Objects\Spawnmodels\Orc\OrcSmallDeathExplode\OrcSmallDeathExplode.mdl
-Attachmentanimprops=medium
-
-[nmys]
-Buttonpos=0,0
-Specialart=Objects\Spawnmodels\Orc\OrcSmallDeathExplode\OrcSmallDeathExplode.mdl
-Attachmentanimprops=medium
-
-// naga royal guard
-[nnrg]
-DependencyOr=nnrs
-Buttonpos=0,0
-Specialart=Objects\Spawnmodels\Orc\OrcSmallDeathExplode\OrcSmallDeathExplode.mdl
-Attachmentanimprops=large
-
-[nnrs]
-Buttonpos=0,0
-Specialart=Objects\Spawnmodels\Orc\OrcSmallDeathExplode\OrcSmallDeathExplode.mdl
-Attachmentanimprops=large
-
-// naga siren
-[nnsw]
-Buttonpos=0,0
-Missileart=Abilities\Weapons\NecromancerMissile\NecromancerMissile.mdl
-Missilearc=0.00
-Missilespeed=900
-MissileHoming=1
-Casterupgradeart=UI\Widgets\Console\Human\infocard-siren.blp
-Specialart=Objects\Spawnmodels\Orc\OrcSmallDeathExplode\OrcSmallDeathExplode.mdl
-
-// naga summoner
-[nnsu]
-Buttonpos=0,0
-Missileart=Abilities\Weapons\NecromancerMissile\NecromancerMissile.mdl
-Missilearc=0.00
-Missilespeed=900
-MissileHoming=1
-Casterupgradeart=UI\Widgets\Console\Human\infocard-siren.blp
-Specialart=Objects\Spawnmodels\Orc\OrcSmallDeathExplode\OrcSmallDeathExplode.mdl
-
-// naga snap dragon
-[nsnp]
-DependencyOr=nsbs
-Buttonpos=0,0
-Missileart=Abilities\Weapons\snapMissile\snapMissile.mdl
-Missilearc=0.0
-Missilespeed=1900
-Specialart=Objects\Spawnmodels\Orc\OrcSmallDeathExplode\OrcSmallDeathExplode.mdl
-Attachmentanimprops=medium
-
-[nsbs]
-Buttonpos=0,0
-Missileart=Abilities\Weapons\snapMissile\snapMissile.mdl
-Missilearc=0.0
-Missilespeed=1900
-Specialart=Objects\Spawnmodels\Orc\OrcSmallDeathExplode\OrcSmallDeathExplode.mdl
-
-// winged serpent
-[nwgs]
-Buttonpos=0,0
-Missileart=Abilities\Weapons\WingedSerpentMissile\WingedSerpentMissile.mdl
-Missilearc=0.0
-Missilespeed=1200
-Specialart=Objects\Spawnmodels\Orc\OrcSmallDeathExplode\OrcSmallDeathExplode.mdl
-
-
-
-
-//other stuff
-
-[nbel]
-Buttonpos=0,0
-Missileart=Abilities\Weapons\BloodElfSpellThiefMISSILE\BloodElfSpellThiefMISSILE.mdl
-Missilearc=0.00
-Missilespeed=900
-Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
-
-[nbee]
-Buttonpos=0,0
-Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
-
-[ndmu]
-Buttonpos=0,0
-Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
-
-[ndrj]
-Buttonpos=0,0
-Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
-
-[nfgl]
-Buttonpos=0,0
-Specialart=Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
-Attachmentanimprops=large
-
-[njks]
-Buttonpos=0,0
-Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
-
-
-[Naka]
-Buttonpos=0,0
-Missileart=Abilities\Weapons\FarseerMissile\FarseerMissile.mdl
-Missilearc=0.15
-Missilespeed=1200
-MissileHoming=1
-Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-akama.blp
-
-[nsw1]
-Attachmentanimprops=medium
-
-[nsw2]
-Attachmentanimprops=medium
-
-[nsw3]
-Attachmentanimprops=medium
-
-[ndrl]
-Builds=ndh2,ndh3,ndh4,nbt2
-Buttonpos=0,0
-Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
-
-[ncat]
-Buttonpos=0,0
-Missileart=abilities\weapons\catapult\catapultmissile.mdl
-Missilearc=0.35
-Missilespeed=900
-MovementSoundLabel=OrcCatapultMovement
-LoopingSoundFadeIn=512
-LoopingSoundFadeOut=512
-Attachmentanimprops=large
-
-// draenei salamander
-[ndsa]
-Missileart=Abilities\Weapons\ChimaeraLightningMissile\ChimaeraLightningMissile.mdl
-Missilearc=0.00
-Missilespeed=1500
-Specialart=Objects\Spawnmodels\Demon\DemonLargeDeathExplode\DemonLargeDeathExplode.mdl
-Attachmentanimprops=large
-
-//draenei seer lodge
-[ndh4]
-Trains=ndrs,ndrh
-Attachmentanimprops=medium
-BuildingSoundLabel=OrcBuildingConstructionLoop
-LoopingSoundFadeIn=512
-LoopingSoundFadeOut=512
-
-//draenei barracks
-[ndh3]
-Trains=ndrn,ndrt,ndsa,ncat
-Attachmentanimprops=medium
-BuildingSoundLabel=OrcBuildingConstructionLoop
-LoopingSoundFadeIn=512
-LoopingSoundFadeOut=512
-
-//seer's lodge
-[ndh2]
-Trains=ndrl
-Attachmentanimprops=medium
-BuildingSoundLabel=OrcBuildingConstructionLoop
-LoopingSoundFadeIn=512
-LoopingSoundFadeOut=512
-Revive=1
-
-[Nmag]
-Attachmentanimprops=large
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-pitlord.blp
-
-[Nklj]
-Missileart=Abilities\Weapons\DemonHunterMissile\DemonHunterMissile.mdl
-Missilearc=0.0
-Missilespeed=900
-MissileHoming=1
-Attachmentanimprops=medium
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-archimonde.blp
-
-[Nkjx]
-Missileart=Abilities\Weapons\DemonHunterMissile\DemonHunterMissile.mdl
-Missilearc=0.0
-Missilespeed=900
-MissileHoming=1
-Attachmentanimprops=medium
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-archimonde.blp
-
-[nfv0]
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Attachmentanimprops=medium
-
-[nfv1]
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Attachmentanimprops=medium
-
-[nfv2]
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Attachmentanimprops=medium
-
-[nfv3]
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Attachmentanimprops=medium
-
-[nfv4]
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Attachmentanimprops=medium
-
-[nvr0]
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Attachmentanimprops=medium
-
-[nvr1]
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Attachmentanimprops=medium
-
-[nvr2]
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Attachmentanimprops=medium
-
-[npgr]
-
-[nmsh]
-Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
-
-[negz]
-
-[Nsjs]
-Missileart=Abilities\Weapons\BrewmasterMissile\BrewmasterMissile.mdl
-Missilearc=0.15
-Missilespeed=900
-Buttonpos=1,1
-Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
-Attachmentanimprops=medium
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-pandarenbrewmaster.blp
-
-[nhew]
-Builds=htow,hhou,hbar,hbla,hwtw,halt,nnsg,hars,hlum,nnsa,hvlt
-Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
-
-[nspc]
-
-[ngbl]
-Attachmentanimprops=medium
-Missileart=Abilities\Weapons\FragDriller\FragDriller.mdl
-Missilespeed=1900
-
-[ndkw]
-Trains=nfel,ninf,nbal
-
-[ndke]
-Trains=nfel,ninf,nbal
-
-[nico]
-
-[net1]
-Upgrade=net2
-Buttonpos=0,0
-Missileart=Abilities\Weapons\FarseerMissile\FarseerMissile.mdl
-Missilearc=0.15
-Missilespeed=1200
-MissileHoming=1
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Animprops=first
-
-[net2]
-Buttonpos=0,2
-Missileart=Abilities\Weapons\GreenDragonMissile\GreenDragonMissile.mdl
-Missilearc=0.15
-Missilespeed=1200
-MissileHoming=1
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Animprops=upgrade,first
-
-[nbt1]
-Upgrade=nbt2
-Buttonpos=1,0
-Missileart=Abilities\Weapons\AncientProtectorMissile\AncientProtectorMissile.mdl
-Missilearc=0.35
-Missilespeed=900
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Animprops=second
-
-[nbt2]
-Buttonpos=0,2
-Missileart=abilities\weapons\catapult\catapultmissile.mdl
-Missilearc=0.35
-Missilespeed=900
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Animprops=upgrade,second
-
-[nft1]
-Upgrade=nft2
-Buttonpos=0,1
-Missileart=Abilities\Weapons\FireBallMissile\FireBallMissile.mdl
-Missilearc=0.35
-Missilespeed=900
-MissileHoming=1
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Animprops=third
-
-[nft2]
-Buttonpos=0,2
-Missileart=Abilities\Weapons\RedDragonBreath\RedDragonMissile.mdl
-Missilearc=0.35
-Missilespeed=900
-MissileHoming=1
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Animprops=upgrade,third
-
-[ndt1]
-Upgrade=ndt2
-Buttonpos=1,1
-Missileart=Abilities\Weapons\LichMissile\LichMissile.mdl
-Missilearc=0.00
-Missilespeed=1200
-MissileHoming=1
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Animprops=fourth
-
-[ndt2]
-Buttonpos=0,2
-Missileart=Abilities\Weapons\FrostWyrmMissile\FrostWyrmMissile.mdl
-Missilearc=0.00
-Missilespeed=1200
-MissileHoming=1
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Animprops=upgrade,fourth
-
-[ntt1]
-Upgrade=ntx2
-Buttonpos=0,2
-Missileart=Abilities\Spells\NightElf\CorrosiveBreath\CorrosiveBreathMissile.mdl
-Missilearc=0.0
-Missilespeed=900
-MissileHoming=1
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Animprops=fifth
-
-[ntx2]
-Buttonpos=0,2
-Missileart=Abilities\Spells\Undead\DeathCoil\DeathCoilMissile.mdl
-Missilearc=0.0
-Missilespeed=900
-MissileHoming=1
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-Animprops=upgrade,fifth
-
-[nfrt]
-Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
-
-[hprt]
-
-[nzlc]
-
-//chaplain
-[nchp]
-Buttonpos=1,0
-Missileart=Abilities\Weapons\PriestMissile\PriestMissile.mdl
-Missilearc=0.15
-Missilespeed=1200
-MissileHoming=1
-Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
-
-// rogue wizard
-[nhym]
-Missileart=Abilities\Weapons\LichMissile\LichMissile.mdl
-Missilearc=0.15
-Missilespeed=900
-MissileHoming=1
-Specialart=Objects\Spawnmodels\Human\HumanLargeDeathExplode\HumanLargeDeathExplode.mdl
-Attachmentanimprops=medium
-
-// zone indicator
-[nzin]
-
-// bindstones
-[nbse]
-
-[nbsw]
-
-[Nmsr]
-Buttonpos=0,2
-Missileart=Abilities\Weapons\FireBallMissile\FireBallMissile.mdl
-Missilearc=0.15
-Missilespeed=900
-Specialart=Objects\Spawnmodels\Demon\DemonLargeDeathExplode\DemonLargeDeathExplode.mdl
-
-[Nswt]
-Buttonpos=0,2
-Missileart=Abilities\Weapons\LichMissile\LichMissile.mdl
-Missilearc=0.15
-Missilespeed=900
+Art=ReplaceableTextures\CommandButtons\BTNTemp.blp

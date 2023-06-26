@@ -1,19 +1,19 @@
 [ebal]
-Requires=edob
+Requires=etoa,edob
 Buttonpos=2,0
-Missileart=Abilities\Weapons\GlaiveMissile\GlaiveMissile.mdl
-Missilearc=0.05
-Missilespeed=1400,2000
-Targetart=Abilities\Weapons\GlaiveMissile\GlaiveMissileTarget.mdl
+Missileart=Abilities\Weapons\BallistaMissile\BallistaMissile.mdl,Abilities\Weapons\BallistaMissile\BallistaMissile.mdl
+Missilearc=0.05,0.05
+Missilespeed=1400,1400
+Targetart=Abilities\Weapons\BallistaMissile\BallistaMissileTarget.mdl
 Attachmentanimprops=large
 
 [etrp]
 Requires=edob
 Buttonpos=3,0
+MissileHoming=0,1
 Missileart=Abilities\Weapons\AncientProtectorMissile\AncientProtectorMissile.mdl
 Missilearc=0.10
 Missilespeed=750
-MissileHoming=0,1
 BuildingSoundLabel=NightElfGrowingLoop
 LoopingSoundFadeIn=512
 LoopingSoundFadeOut=512
@@ -45,15 +45,6 @@ Boneprops=alternate
 Casterupgradeart=UI\Widgets\Console\Human\infocard-druidofclaw.blp
 Animprops=alternateex
 
-// Ancient of Wonders
-[eden]
-Buttonpos=2,2
-Makeitems=moon,plcl,dust,phea,pman,stwp,spre,oven,pams
-BuildingSoundLabel=NightElfGrowingLoop
-LoopingSoundFadeIn=512
-LoopingSoundFadeOut=512
-Specialart=Objects\Spawnmodels\NightElf\NECancelDeath\NECancelDeath.mdl
-Attachmentanimprops=medium
 
 [edot]
 DependencyOr=edtm
@@ -62,7 +53,6 @@ Buttonpos=1,0
 Missileart=Abilities\Weapons\DruidoftheTalonMissile\DruidoftheTalonMissile.mdl
 Missilearc=0.15
 Missilespeed=900
-MissileHoming=1
 Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
 Casterupgradeart=UI\Widgets\Console\Human\infocard-druidoftalon.blp
 
@@ -71,7 +61,6 @@ Buttonpos=1,0
 Missileart=Abilities\Weapons\DruidoftheTalonMissile\DruidoftheTalonMissile.mdl
 Missilearc=0.15
 Missilespeed=900
-MissileHoming=1
 Attachmentlinkprops=alternate
 Boneprops=alternate
 Casterupgradeart=UI\Widgets\Console\Human\infocard-druidoftalon.blp
@@ -83,10 +72,9 @@ BuildingSoundLabel=UndeadBuildingConstructionLoop
 LoopingSoundFadeIn=512
 LoopingSoundFadeOut=512
 Specialart=Objects\Spawnmodels\NightElf\NECancelDeath\NECancelDeath.mdl
-Attachmentanimprops=medium
 
 [ewsp]
-Builds=etol,emow,edos,eaom,eate,eaow,eaoe,edob,etrp,eden
+Builds=etol,emow,edos,eaom,eate,eaow,eaoe,edob,etrp
 Buttonpos=0,0
 Specialart=Units\NightElf\Wisp\WispExplode.mdl
 
@@ -100,8 +88,7 @@ DependencyOr=Edmm
 // do NOT put a similar DependencyOr on Edmm
 Missileart=Abilities\Weapons\DemonHunterMissile\DemonHunterMissile.mdl
 Missilearc=0.0
-Missilespeed=900
-MissileHoming=1
+//Missilespeed=900
 Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-demonhunter.blp
 
@@ -113,14 +100,14 @@ Requires1=etoa
 Requires2=etoe
 Missileart=Abilities\Weapons\DemonHunterMissile\DemonHunterMissile.mdl
 Missilearc=0.0
-Missilespeed=900
-MissileHoming=1
+//Missilespeed=900
 Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
 Attachmentanimprops=medium
 Attachmentlinkprops=alternate
 Boneprops=alternate
 Animprops=alternateex
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-demonhunter.blp
+
 
 [Ekee]
 Buttonpos=1,2
@@ -131,7 +118,6 @@ Requires2=etoe
 Missileart=Abilities\Weapons\KeeperGroveMissile\KeeperGroveMissile.mdl
 Missilearc=0.10
 Missilespeed=900
-MissileHoming=1
 Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
 Attachmentanimprops=medium
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-keeperofthegrove.blp
@@ -141,7 +127,6 @@ Buttonpos=2,2
 Missileart=Abilities\Weapons\MoonPriestessMissile\MoonPriestessMissile.mdl
 Missilearc=0.15
 Missilespeed=900
-MissileHoming=1
 Requirescount=3
 Requires=
 Requires1=etoa
@@ -149,19 +134,6 @@ Requires2=etoe
 Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
 Attachmentanimprops=medium
 ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-priestessofthemoon.blp
-
-[Ewar]
-Buttonpos=0,1
-Missileart=Abilities\Weapons\WardenMissile\WardenMissile.mdl
-Missilearc=0.15
-Missilespeed=900
-Requirescount=3
-Requires=
-Requires1=etoa
-Requires2=etoe
-Specialart=Objects\Spawnmodels\NightElf\NightElfLargeDeathExplode\NightElfLargeDeathExplode.mdl
-Attachmentanimprops=medium
-ScoreScreenIcon=UI\Glues\ScoreScreen\scorescreen-hero-warden.blp
 
 [esen]
 Requires=edob
@@ -205,91 +177,86 @@ Attachmentanimprops=medium
 Upgrade=etoa
 Trains=ewsp
 Buttonpos=0,0
-Researches=Renb,Repm
+Researches=Renb
 BuildingSoundLabel=NightElfGrowingLoop
 LoopingSoundFadeIn=512
 LoopingSoundFadeOut=512
-Attachmentanimprops=large
+Attachmentanimprops=
 Specialart=Objects\Spawnmodels\NightElf\NECancelDeath\NECancelDeath.mdl
 
 [etoa]
 Upgrade=etoe
 Trains=ewsp
 Buttonpos=0,2
-Researches=Renb,Repm
+Researches=Renb
 BuildingSoundLabel=NightElfGrowingLoop
 LoopingSoundFadeIn=512
 LoopingSoundFadeOut=512
 Animprops=Upgrade,First
-Attachmentanimprops=upgrade,first,large
+Attachmentanimprops=upgrade,first
 Specialart=Objects\Spawnmodels\NightElf\NECancelDeath\NECancelDeath.mdl
 
 [etoe]
 Requires=eate
 Trains=ewsp
 Buttonpos=0,2
-Researches=Renb,Repm
+Researches=Renb
 BuildingSoundLabel=NightElfGrowingLoop
 LoopingSoundFadeIn=512
 LoopingSoundFadeOut=512
 Animprops=Upgrade,Second
-Attachmentanimprops=upgrade,second,large
+Attachmentanimprops=upgrade,second
 Specialart=Objects\Spawnmodels\NightElf\NECancelDeath\NECancelDeath.mdl
 
 [edob]
 Requires=etol
 Buttonpos=2,0
-Researches=Resm,Rema,Resw,Rerh,Reuv,Rews
+Researches=Resm,Rema,Resw,Rerh,Reuv
 BuildingSoundLabel=NightElfGrowingLoop
 LoopingSoundFadeIn=512
 LoopingSoundFadeOut=512
 Specialart=Objects\Spawnmodels\NightElf\NECancelDeath\NECancelDeath.mdl
-Attachmentanimprops=medium
 
 [eate]
-Trains=Edem,Ekee,Emoo,Ewar
+Trains=Edem,Ekee,Emoo
 Buttonpos=1,1
 BuildingSoundLabel=NightElfGrowingLoop
 LoopingSoundFadeIn=512
 LoopingSoundFadeOut=512
 Specialart=Objects\Spawnmodels\NightElf\NECancelDeath\NECancelDeath.mdl
-Attachmentanimprops=medium
 Revive=1
 
 [eaoe]
 Requires=etoa,edob
-Trains=edry,edoc,emtg
-Researches=Resi,Redc,Rers,Rehs,Reeb
+Trains=edry,edoc
+Researches=Resi,Redc
 Buttonpos=2,1
 BuildingSoundLabel=NightElfGrowingLoop
 LoopingSoundFadeIn=512
 LoopingSoundFadeOut=512
 Specialart=Objects\Spawnmodels\NightElf\NECancelDeath\NECancelDeath.mdl
-Attachmentanimprops=medium
 
 [eaom]
 Trains=earc,esen,ebal
 Buttonpos=1,0
-Researches=Reib,Remk,Resc,Remg,Repb
+Researches=Resc,Reib,Remk,Remg,Repb
 BuildingSoundLabel=NightElfGrowingLoop
 LoopingSoundFadeIn=512
 LoopingSoundFadeOut=512
 Specialart=Objects\Spawnmodels\NightElf\NECancelDeath\NECancelDeath.mdl
-Attachmentanimprops=medium
 
 [eaow]
 Requires=etoa
-Trains=ehip,edot,efdr
-Researches=Redt,Reec
+Trains=ehip,edot
+Researches=Redt,Reht
 Buttonpos=0,2
 BuildingSoundLabel=NightElfGrowingLoop
 LoopingSoundFadeIn=512
 LoopingSoundFadeOut=512
 Specialart=Objects\Spawnmodels\NightElf\NECancelDeath\NECancelDeath.mdl
-Attachmentanimprops=medium
 
 [edos]
-Requires=etoe
+Requires=etoe,eaow
 Researches=Recb
 Trains=echm
 Buttonpos=1,2
@@ -305,59 +272,6 @@ LoopingSoundFadeIn=512
 LoopingSoundFadeOut=512
 Specialart=Objects\Spawnmodels\NightElf\NECancelDeath\NECancelDeath.mdl
 
-// spirit of vengeance
-[espv]
-Buttonpos=0,0
-Missileart=Abilities\Weapons\SpiritOfVengeanceMissile\SpiritOfVengeanceMissile.mdl
-Missilearc=0.10
-Missilespeed=1200
-MissileHoming=1
-Attachmentanimprops=medium
-
-// little spirit of vengeance
-[even]
-Buttonpos=0,0
-Missileart=Abilities\Weapons\VengeanceMissile\VengeanceMissile.mdl
-Missilearc=0.10
-Missilespeed=1200
-MissileHoming=1
-
-// mountain giant
-[emtg]
-Requires=etoa,eden
-Buttonpos=2,0
-Attachmentanimprops=large
-
-// faerie dragon
-[efdr]
-Requires=eden
-Buttonpos=2,0
-Missileart=Abilities\Weapons\FaerieDragonMissile\FaerieDragonMissile.mdl
-Missilearc=0.15
-Missilespeed=900
-MissileHoming=1
-
 [Aimp]
 Requires=Repb
 Buttonpos=0,2
-
-//#RESTNOBETA
-[etrs]
-Attachmentanimprops=large
-
-[edes]
-Buttonpos=1,0
-Missileart=Abilities\Weapons\GuardTowerMissile\GuardTowerMissile.mdl
-Missilearc=0.10
-Missilespeed=900
-Attachmentanimprops=large
-
-[ebsh]
-Buttonpos=2,0
-Missileart=Abilities\Weapons\GuardTowerMissile\GuardTowerMissile.mdl
-Missilearc=0.10
-Missilespeed=900
-Attachmentanimprops=large
-
-[eshy]
-Sellunits=etrs

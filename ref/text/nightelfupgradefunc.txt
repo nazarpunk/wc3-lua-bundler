@@ -33,32 +33,31 @@ Requires2=etoe
 [Reuv]
 Art=ReplaceableTextures\CommandButtons\BTNUltravision.blp
 Buttonpos=2,0
-Requires=etoa
 
 [Renb]
 Art=ReplaceableTextures\CommandButtons\BTNNaturesBlessing.blp
-Buttonpos=2,0
+Buttonpos=3,0
 Requires=etoa
 
 [Reib]
 Art=ReplaceableTextures\CommandButtons\BTNImprovedBows.blp
-Buttonpos=0,2
+Buttonpos=0,1
 Requires=etoa
 
 [Remk]
 Art=ReplaceableTextures\CommandButtons\BTNMarksmanship.blp
-Buttonpos=0,1
+Buttonpos=0,2
 Requires=edob,etoe
 
 [Resc]
 Art=ReplaceableTextures\CommandButtons\BTNSentinel.blp
-Buttonpos=1,2
-Requires=edob
+Buttonpos=1,1
+Requires=etoa,edob
 
 [Remg]
 Art=ReplaceableTextures\CommandButtons\BTNUpgradeMoonGlaive.blp
-Buttonpos=1,1
-Requires=edob,etoa
+Buttonpos=1,2
+Requires=edob,etoe
 
 [Redt]
 Art=ReplaceableTextures\CommandButtons\BTNDOTAdeptTraining.blp,ReplaceableTextures\CommandButtons\BTNDOTMasterTraining.blp
@@ -87,38 +86,6 @@ Art=ReplaceableTextures\CommandButtons\BTNCorrosiveBreath.blp
 Buttonpos=0,2
 
 [Repb]
-Art=ReplaceableTextures\CommandButtons\BTNVorpalBlades.blp
+Art=ReplaceableTextures\CommandButtons\BTNImpalingBolt.blp
 Buttonpos=2,2
 Requires=etoa,edob
-
-[Rehs]
-Art=ReplaceableTextures\CommandButtons\BTNHardenedSkin.blp
-Buttonpos=2,1
-Requires=etoe,eden
-
-[Rers]
-Art=ReplaceableTextures\CommandButtons\BTNResistantSkin.blp
-Buttonpos=2,2
-Requires=etoe,eden
-
-[Reeb]
-Art=ReplaceableTextures\CommandButtons\BTNEnchantedBears.blp
-Buttonpos=1,1
-Requires=Redc
-Requiresamount=2
-
-[Reec]
-Art=ReplaceableTextures\CommandButtons\BTNEnchantedCrows.blp
-Buttonpos=1,1
-Requires=Redt
-Requiresamount=2
-
-[Rews]
-Art=ReplaceableTextures\CommandButtons\BTNWellSpring.blp
-Buttonpos=3,0
-Requires=etoe
-
-[Repm]
-Art=ReplaceableTextures\CommandButtons\BTNPackBeast.blp
-Buttonpos=3,0
-Requires=eden
