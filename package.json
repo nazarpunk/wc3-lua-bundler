@@ -7,7 +7,8 @@
   "contributors": [],
   "license": "UNLICENSED",
   "type": "module",
-  "devDependencies": {
-    "luabundle": "^1.6.0"
+  "dependencies": {
+    "luabundle": "^1.6.0",
+    "warodel": "file:../warodel"
   }
 }
