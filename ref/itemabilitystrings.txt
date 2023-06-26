@@ -1,0 +1,1106 @@
+// Item abilities are generally activated via the inventory UI and not through their own hotkeys
+
+// Rune of the Watcher
+[APwt]
+Name=Руна стража
+
+// Blink (item)
+[AIbk]
+Name=Скачок
+
+// One time permanent strength gain ability, usually on a Tome
+[AIsm]
+Name=Бонус к силе
+
+// One time permanent agility gain ability, usually on a tome
+[AIam]
+Name=Бонус к ловкости
+
+// short duration single target speed bonus
+[AIsp]
+Name=Временный бонус к скорости
+
+// continuous Attack Bonus
+[AIat]
+Name=Бонус к урону
+EditorSuffix=(+3)
+
+// continuous Defense Bonus
+[AIde]
+Name=Бонус к броне
+
+// area of effect damage of destructables
+[AIdm]
+Name=Урон по области по деревьям и стенам
+
+// One time permanent hero experience gain, usually on a tome
+[AIem]
+Name=Бонус к опыту
+
+[AIe2]
+Name=Бонус к опыту
+EditorSuffix=(Greater)
+
+// Cloud of Fog
+[AIfg]
+Name=Облако тумана
+Tip=Облако тумана
+Ubertip="Призывает небольшое облако тумана, который не позволяет башням врага вести огонь. |nВремя действия: <Aclf,Dur1> сек."
+Hotkey=C
+
+// Flag Ability, to show something on a hero carrying the flag
+[AIfl]
+Name=Захват знамени
+
+// human flag
+[AIfm]
+Name=Захват знамени
+EditorSuffix=(Human)
+
+// night elf flag
+[AIfn]
+Name=Захват знамени
+EditorSuffix=(Night Elf)
+
+// orc flag
+[AIfo]
+Name=Захват знамени
+EditorSuffix=(Orc)
+
+// undead flag
+[AIfe]
+Name=Захват знамени
+EditorSuffix=(Undead)
+
+// One time permanent hero level gain, usually on a tome
+[AIlm]
+Name=Повышение уровня
+
+// One time permanent intelligence gain, usually on a Tome
+[AIim]
+Name=Бонус к интеллекту
+
+// One time permanent int/agi/str gain
+[AIxm]
+Name="Бонус к интеллекту, ловкости и силе"
+
+// single shot one target healing (potions, typically)
+[AIhe]
+Name=Исцеление
+
+[AIhx]
+Name=Исцеление
+EditorSuffix=(least)
+
+// single shot group area effect healing (scrolls, typically)
+[AIha]
+Name=Массовое исцеление
+
+[AIhb]
+Name=Массовое исцеление
+EditorSuffix=(Greater)
+
+// single shot group area effect healing (powerup, lesser)
+[APh1]
+Name=Массовое исцеление (малое)
+
+// single shot group area effect healing (powerup)
+[APh2]
+Name=Массовое исцеление
+
+// single shot group area effect healing (powerup, greater)
+[APh3]
+Name=Массовое исцеление (мощное)
+
+
+// short duration single target invisibility (potion)
+[AIvi]
+Name=Временная невидимость
+
+// short duration single target invulnerability (potion)
+[AIvu]
+Name=Временная неуязвимость
+
+[AIvl]
+Name=Временная неуязвимость
+EditorSuffix=(Lesser)
+
+// single shot one target mana regain (potions, typically)
+[AIma]
+Name=Восполнение маны
+
+// single shot group area effect mana regain (scrolls, typically)
+[AImr]
+Name=Массовое восполнение маны
+
+// single shot group area effect mana regain (rune)
+[APmr]
+Name=Руна массового восполнения маны
+
+// single shot group area effect mana regain (rune, greater)
+[APmg]
+Name=Большая руна массового восполнения маны
+
+// single shot one target life/mana restore (potion)
+[AIre]
+Name=Восполнение здоровья и маны
+
+// single shot group area effect life/mana restore (scroll)
+[AIra]
+Name=Массовое восполнение здоровья и маны
+
+// single shot group area effect life/mana restore (rune)
+[APra]
+Name=Массовое восполнение здоровья и маны
+
+// area of effect application of a defensive buff (scroll of protection)
+[AIda]
+Name=Временный массовый бонус к броне
+
+// area of effect application of a defensive buff (scroll of protection) (with healing)
+[AIdb]
+Name=Временный массовый бонус к броне
+EditorSuffix=(with Life & Mana Healing)
+
+// buff that AIda applies
+[Bdef]
+Bufftip=Свиток защиты
+Buffubertip=Броня усилена.
+
+// area of effect detection (crystal ball)
+[AIta]
+Name=Массовое обнаружение
+
+// continuous Mana regeneration (ring)
+[AIrm]
+Name=Регенерация маны
+
+[AIfi]
+Name=Огненная стрела
+
+// Illusion generator
+[AIil]
+Name=Иллюзии
+
+[BIil]
+Bufftip=Иллюзия
+Buffubertip=Получаемый урон увеличен.
+
+// Dispel effect
+[AIdi]
+Name=Рассеивание
+
+[AIds]
+Name=Рассеивание
+EditorSuffix=(with cooldown)
+
+// Dispel effect (powerup)
+[APdi]
+Name=Рассеивание заклинаний
+
+// Hero attacks get fire damage bonus, persistent, Orb of Fire
+[AIfb]
+Name=Бонус к урону от атак от огня
+
+// Hero attacks get lightning damage bonus, persistent, Orb of Lightning
+[AIlb]
+Name=Бонус к урону от атак от молнии
+
+// Hero attacks get black arrow bonus
+[AIdf]
+Name=Бонус к урону от атак от «Черной стрелы»
+
+// purge portion of lightning orb
+[AIlp]
+Name=Развеивание магии
+EditorSuffix= (1)
+
+// Hero attacks get frost damage bonus, persistent, Orb of Frost
+[AIob]
+Name=Бонус к урону от атак от льда
+
+[AIpb]
+Name=Бонус к урону от атак от яда
+
+[AIcb]
+Name=Бонус к урону от атак от порчи
+
+[BIcb]
+Bufftip=Порча
+Buffubertip=Броня ослаблена.
+
+// Hero sight range increase, persistent, Telescope
+[AIsi]
+Name=Бонус к радиусу обзора
+
+// Soul Gem Hero soul theft ability
+[AIso]
+Name=Похищение души
+
+// Soul Gem Hero soul-carying ability - remove this to release the soul
+[Asou]
+Name=Пленение души
+
+// caster buff for AIso
+[BIsv]
+Bufftip=Похищение души
+Buffubertip=Душа героя.
+
+// reincarnation (ankh)
+[AIrc]
+Name=Реинкарнация
+
+// recall (amulet)
+[AIrt]
+Name=Амулет вызова
+
+[AItp]
+Name=Свиток возвращения
+
+[AIco]
+Name=Боевой дух
+
+// figurine unit summon ability - red drake
+[AIfd]
+Name=Item Red Drake Summon,Item Blue Drake Summon
+
+// furbolg
+[AIff]
+Name=Item Furbolg Summon,Item Blue Dragonspawn Overseer Summon
+
+// rock golem
+[AIfr]
+Name=Призыв каменного голема
+
+// doom guard
+[AIfu]
+Name=Призыв стража ужаса
+
+// felhound
+[AIfh]
+Name=Призыв ловчего Скверны
+
+// skeleton
+[AIfs]
+Name=Призыв скелета
+
+// Ice Revenant
+[AIir]
+Name=Призыв загробника льда
+
+// Ursa Warrior
+[AIuw]
+Name=Призыв фурболга-воителя
+
+[BFig]
+Bufftip=Призванное существо
+Buffubertip=Призванные цели получают больше урона от рассеивающих способностей.
+
+// place goblin land mine
+[AIpm]
+Name=Установка гоблинской мины
+
+// permanent attack bonus
+[AIaa]
+Name=Постоянный бонус к урону,Бонус к урону от атак
+
+// permanent hit point bonus
+[AImi]
+Name=Постоянный бонус к здоровью,Бонус к здоровью
+
+[AIpx]
+Name=Постоянный бонус к здоровью
+EditorSuffix=(lesser)
+
+// vampiric life steal ability
+[AIva]
+Name=Вытягивание жизни
+
+// cloak of flames immolation
+[AIcf]
+Name=Обжигающий жар
+
+// Cloak of Flames immolation buff
+[BIcf]
+Bufftip=Огненный плащ
+Buffubertip=Находящиеся рядом наземные враги получают периодический урон.
+
+// hero stat bonus
+[AIab]
+Name=Бонус к характеристикам героя
+
+// freeze damage bonus
+[AIzb]
+Name=Бонус к урону от холода
+
+// max life bonus
+[AIml]
+Name=Бонус к здоровью
+
+[AIlz]
+Name=Бонус к здоровью
+EditorSuffix=(least)
+
+// regen life
+[Arel]
+Name=Регенерация здоровья
+
+// anti-magic shield
+[Aami]
+Name=Антимагический панцирь
+
+// max mana bonus
+[AImm]
+Name=Бонус к мане
+
+[AImz]
+Name=Бонус к мане (100)
+
+[AImv]
+Name=Бонус к мане (75)
+
+[AI2m]
+Name=Бонус к мане (200)
+
+// attack speed increase
+[AIas]
+Name=Бонус к скорости атаки
+
+[AIsx]
+Name=Бонус к скорости атаки
+EditorSuffix=(Gloves of Haste)
+
+[AIs2]
+Name=Бонус к скорости атаки
+EditorSuffix=(Greater)
+
+[AIan]
+Name=Оживление мертвых
+
+[AIrs]
+Name=Воскрешение
+
+[AIrx]
+Name=Воскрешение
+EditorSuffix=(cooldown)
+
+[APrl]
+Name=Малая руна воскрешения
+
+[APrr]
+Name=Большая руна воскрешения
+
+[AIaa]
+
+[AImi]
+
+[AIms]
+Name=Бонус к скорости передвижения
+
+[AIa3]
+Name=Бонус к характеристикам героя
+EditorSuffix=(+3 Agility)
+
+[AIa4]
+Name=Бонус к характеристикам героя
+EditorSuffix=(+4 Agility)
+
+[AIa6]
+Name=Бонус к характеристикам героя
+EditorSuffix=(+6 Agility)
+
+[AIaz]
+Name=Бонус к характеристикам героя
+EditorSuffix=(+10 Agility)
+
+[AIx5]
+Name=Бонус к характеристикам героя
+EditorSuffix=(+5 All Stats)
+
+[AIx2]
+Name=Бонус к характеристикам героя
+EditorSuffix=(+2 All Stats)
+
+[AIs3]
+Name=Бонус к характеристикам героя
+EditorSuffix=(+3 Strength)
+
+[AIs4]
+Name=Бонус к характеристикам героя
+EditorSuffix=(+4 Strength)
+
+[AIs6]
+Name=Бонус к характеристикам героя
+EditorSuffix=(+6 Strength)
+
+[AIi3]
+Name=Бонус к характеристикам героя
+EditorSuffix=(+3 Intelligence)
+
+[AIi4]
+Name=Бонус к характеристикам героя
+EditorSuffix=(+4 Intelligence)
+
+[AIi6]
+Name=Бонус к характеристикам героя
+EditorSuffix=(+6 Intelligence)
+
+[AIgm]
+Name=Бонус к ловкости
+EditorSuffix=(+2)
+
+[AItm]
+Name=Бонус к интеллекту
+EditorSuffix=(+2)
+
+[AInm]
+Name=Бонус к силе
+EditorSuffix=(+2)
+
+[AIt6]
+Name=Бонус к урону
+EditorSuffix=(+6)
+
+[AIt9]
+Name=Бонус к урону
+EditorSuffix=(+9)
+
+[AItc]
+Name=Бонус к урону
+EditorSuffix=(+12)
+
+[AItf]
+Name=Бонус к урону
+EditorSuffix=(+15)
+
+[AIcy]
+Name=Смерч
+Tip=Смерч
+Ubertip="Подбрасывает врага в воздух, не позволяя двигаться, атаковать и применять способности. При этом жертву нельзя выбрать целью. Не действует на технику. |nВремя действия: <AIcy,Dur1> сек."
+Hotkey=C
+EditorSuffix=(Item)
+
+[AId1]
+Name=Бонус к броне
+EditorSuffix=(+1)
+
+[AId2]
+Name=Бонус к броне
+EditorSuffix=(+2)
+
+[AId3]
+Name=Бонус к броне
+EditorSuffix=(+3)
+
+[AId4]
+Name=Бонус к броне
+EditorSuffix=(+4)
+
+[AId5]
+Name=Бонус к броне
+EditorSuffix=(+5)
+
+[AId7]
+Name=Бонус к броне
+EditorSuffix=(+7)
+
+[AId8]
+Name=Бонус к броне
+EditorSuffix=(+8)
+
+[AId0]
+Name=Бонус к броне
+EditorSuffix=(+10)
+
+[AIin]
+EditorSuffix=(Item)
+
+[AIlf]
+Name=Бонус к здоровью
+EditorSuffix=(Least)
+
+[AIl1]
+Name=Бонус к здоровью
+EditorSuffix=(Lesser)
+
+[AIl2]
+Name=Бонус к здоровью
+EditorSuffix=(Greater)
+
+[Arll]
+Name=Регенерация здоровья
+EditorSuffix=(Lesser)
+
+[AIh1]
+Name=Исцеление
+EditorSuffix=(Lesser)
+
+[AIh2]
+Name=Исцеление
+EditorSuffix=(Greater)
+
+[AIhw]
+Name=Исцеляющий идол
+Ubertip="Призывает неподвижного идола, который восполняет союзникам рядом с собой <Aoar,DataA1,%>% запаса здоровья в секунду. Не действует на технику. |nВремя существования: <AIhw,Dur1> сек."
+EditorSuffix=(Item)
+
+[AIsw]
+Name=Сторожевой идол
+Ubertip="Призывает невидимого неподвижного идола, который открывает обзор в прилегающей области. |nИдол обнаруживает невидимые войска. |nВремя существования: <AIsw,Dur1> сек."
+EditorSuffix=(Item)
+
+[AIv1]
+Name=Временная невидимость
+EditorSuffix=(Lesser)
+
+[AIv2]
+Name=Временная невидимость
+EditorSuffix=(Greater)
+
+[AIm1]
+Name=Восполнение маны
+EditorSuffix=(Lesser)
+
+[AIm2]
+Name=Восполнение маны
+EditorSuffix=(Greater)
+
+[AIrn]
+EditorSuffix=(Lesser)
+
+[AIad]
+EditorSuffix=(Item)
+
+[AIcd]
+EditorSuffix=(Item)
+
+[AIba]
+EditorSuffix=(Item)
+
+[AIav]
+EditorSuffix=(Item)
+
+[AIar]
+EditorSuffix=(Item)
+
+[AIae]
+EditorSuffix=(Item)
+
+[AIau]
+EditorSuffix=(Item)
+
+[AIls]
+Name=Щит молний
+Ubertip="Окружает цель молниями, которые наносят <AIls,DataA1> урона/сек. находящимся рядом войскам. |nВремя действия: <AIls,Dur1> сек."
+EditorSuffix=(Item)
+
+[AIrr]
+Name=Рев
+Ubertip="+<AIrr,DataA1,%>% к урону находящихся рядом союзников. |nВремя действия: <AIrr,Dur1> сек."
+EditorSuffix=(Item)
+
+[AIev]
+Name=Ускользание
+Ubertip="Дает <AIev,DataA1,%>%-й шанс уклониться от атаки."
+EditorSuffix=(Item)
+
+[AImx]
+Name=Невосприимчивость к магии
+Ubertip=Дает невосприимчивость к способностям.
+EditorSuffix=(Item)
+
+[AImb]
+Name=Бонус к мане
+EditorSuffix=(Least)
+
+[AIbm]
+Name=Бонус к мане
+EditorSuffix=(Greater)
+
+[AIuv]
+Name=Ночное зрение
+EditorSuffix=(Item)
+
+[AImh]
+Name=Постоянный бонус к здоровью
+EditorSuffix=(+50)
+
+[AIa1]
+Name=Бонус к характеристикам героя
+EditorSuffix=(+1 Agility)
+
+[AIx1]
+Name=Бонус к характеристикам героя
+EditorSuffix=(+1 All Stats)
+
+[AIs1]
+Name=Бонус к характеристикам героя
+EditorSuffix=(+1 Strength)
+
+[AIi1]
+Name=Бонус к характеристикам героя
+EditorSuffix=(+1 Intelligence)
+
+[AIfc]
+Name=Ковер-самолет
+
+// Healing Salve
+[AIrl]
+Name=Лечебный бальзам
+
+[BIrl]
+Bufftip=Регенерация
+Buffubertip=Регенерация здоровья.
+
+// Clarity Potion
+[AIpr]
+Name=Зелье ясности
+
+[AIpl]
+Name=Слабое зелье ясности
+
+// generic rejuv potion/scroll base
+[AIp1]
+Name=Generic Item-Rejuv Effect
+
+[BIrm]
+Bufftip=Зелье ясности
+Buffubertip=Постепенная регенерация маны.
+
+[AIp2]
+Name=Generic Item-Rejuv Effect
+EditorSuffix= (II)
+
+[AIp3]
+Name=Generic Item-Rejuv Effect
+EditorSuffix= (III)
+
+[AIp4]
+Name=Generic Item-Rejuv Effect
+EditorSuffix= (IV)
+
+[AIp5]
+Name=Generic Item-Rejuv Effect
+EditorSuffix= (V)
+
+[AIp6]
+Name=Generic Item-Rejuv Effect
+EditorSuffix= (VI)
+
+// Scroll of Regeneration
+[AIsl]
+Name=Свиток регенерации
+
+[BIrg]
+Bufftip=Омоложение
+Buffubertip=Регенерация здоровья и маны.
+EditorSuffix=(Item)
+
+// One time permanent gold increase
+[AIgo]
+Name=Сундук золота
+
+// One time permanent lumber increase
+[AIlu]
+Name=Вязанка дров
+
+// Flare Gun
+[AIfa]
+Name=Осветительное ружье
+
+[AIrv]
+Name=Обзор всей карты
+
+
+// Wand of Neutralization
+[AIdc]
+Name=Цепное рассеивание
+
+// Spider Silk
+[AIwb]
+Name=Паутина
+
+// Monster Lure
+[AImo]
+Name=Приманка
+
+[BImo]
+Bufftip=Приманка
+Buffubertip=Привлекает находящихся рядом монстров.
+
+// Random Item
+[AIri]
+Name=Случайный предмет
+
+// Blight Placement
+[Ablp]
+Name=Зачумление
+
+// Steal
+[Aste]
+Name=Похищение
+
+// Change TOD
+[AIct]
+Name=Сменить время
+
+// Vampiric Potion
+[AIpv]
+Name=Зелье вампиризма
+
+[BIpv]
+Bufftip=Зелье вампиризма
+Buffubertip=Атаки наносят больше урона и похищают здоровье противников.
+
+// Spell Damage Reduction
+[AIsr]
+Name=Снижение урона от способностей
+
+// Build Tiny Castle
+[AIbl]
+Name=Построить игрушечный замок
+
+// Build Tiny Castle
+[AIbg]
+Name=Построить игрушечный дом вождей
+
+//build tiny tower
+[AIbt]
+Name=Построить игрушечную дозорную башню
+
+
+// Shadowsight
+[Ashs]
+Name=Жезл теневого зрения
+
+[Bshs]
+Bufftip=Жезл теневого зрения
+Buffubertip=Враг видит все в поле зрения этого воина.
+
+// Tome of Retraining
+[Aret]
+Name=Фолиант забвения
+
+// Staff of Teleportation
+[AImt]
+Name=Посох телепортации
+
+// Staff of Preservation
+[ANpr]
+Name=Посох сохранения
+
+// Mechanical Critter
+[Amec]
+Name=Заводной зверек
+
+[Bmec]
+Bufftip=Заводной зверек
+Buffubertip=Призванные цели получают урон от рассеивающих способностей.
+
+// Spell Shield
+[ANss]
+Name=Антимагический щит
+EditorSuffix=(Amulet)
+
+// Spell Shield (AOE)
+[ANse]
+Name=Антимагический щит
+EditorSuffix=(Rune)
+
+[BNss]
+Bufftip=Антимагический щит
+Buffubertip="Щит, блокирующий одну способность."
+
+// Spell book
+[Aspb]
+Name=Книга заклинаний
+
+// Raise Dead
+[AIrd]
+Name=Воскрешение мертвых
+
+// Staff of Sanctuary
+[ANsa]
+Name=Посох спасения
+
+[BNsa]
+Bufftip=Спасение
+Buffubertip="Регенерация здоровья. Невозможно двигаться, атаковать и применять способности."
+
+[AIsa]
+Name=Свиток ускорения
+
+[APsa]
+Name=Руна скорости
+
+[AItb]
+Name=Порошок обнаружения
+
+[Bdet]
+Bufftip=Порошок обнаружения
+Buffubertip=Позволяет игрокам-противникам видеть невидимые войска.
+
+[AIsb]
+Name=Замедление при атаках
+
+[AIll]
+Name=Бонус к урону от атак от молнии
+
+[AIos]
+Name=Замедление
+Tip=Замедление
+Ubertip="Замедляет атаку врага на <AIos,DataB1,%>% и передвижение на <AIos,DataA1,%>%. |nВремя действия: <AIos,Dur1> сек."
+EditorSuffix=(Orb Version)
+
+// Orb of Darkness
+[ANbs]
+Name=Черная стрела
+
+// Spirit Link (AOE)
+[Aspp]
+Name=Духовная связь
+EditorSuffix=(Area)
+
+[AIrb]
+Name=Перерождение
+
+[BIrb]
+Bufftip=Перерождение
+Buffubertip="Этот воин перерожден."
+
+// Dark Summoning
+[AUds]
+Name=Темный призыв
+Tip=Темный призыв
+Ubertip="Переносит до <AUds,DataA1> союзников из указанной области в точку применения."
+Hotkey=D
+Researchtip=Изучить «Темный призыв»
+Researchubertip="Переносит до <AUds,DataA1> союзников из указанной области в точку применения."
+Researchhotkey=D
+
+// anti-magic shield
+[AIxs]
+Name=Антимагический панцирь
+
+// divine shield item
+[AIdv]
+Name=Божественный щит
+
+// silence item
+[AIse]
+Name=Немота
+
+// item purge
+[AIpg]
+Name=Развеивание магии
+EditorSuffix= (2)
+
+// item purge
+[AIps]
+Name=Развеивание магии
+EditorSuffix= (3)
+
+//#RESTNOBETA
+[AItg]
+Name=Бонус к урону
+EditorSuffix=(+1)
+
+[AIth]
+Name=Бонус к урону
+EditorSuffix=(+2)
+
+[AIti]
+Name=Бонус к урону
+EditorSuffix=(+4)
+
+[AItj]
+Name=Бонус к урону
+EditorSuffix=(+5)
+
+[AItk]
+Name=Бонус к урону
+EditorSuffix=(+7)
+
+[AItl]
+Name=Бонус к урону
+EditorSuffix=(+8)
+
+[AItn]
+Name=Бонус к урону
+EditorSuffix=(+10)
+
+[AItx]
+Name=Бонус к урону
+EditorSuffix=(+20)
+
+[AIh3]
+Name=Слабое исцеление
+EditorSuffix=(slow cooldown)
+
+// orcish battle standard
+[AIfx]
+Name=Боевой стяг Орды
+
+// Hero attacks get fire damage bonus, persistent, Orb of Gul'dan
+[AIgd]
+Name=Бонус к урону от атак от огня
+EditorSuffix=(Gul'dan)
+
+
+// tiny altar of kings
+[AIbh]
+Name=Построить игрушечный алтарь королей
+
+// tiny blacksmith
+[AIbb]
+Name=Построить игрушечную кузницу
+
+// tiny lumber mill
+[AIbr]
+Name=Построить игрушечную лесопилку
+
+// tiny farm
+[AIbf]
+Name=Построить игрушечную ферму
+
+// tiny barracks
+[AIbs]
+Name=Построить игрушечные казармы
+
+[AIdn]
+Name=Свойство Сферы Теней
+
+[AInd]
+Name=Оживление
+EditorSuffix=(special campaign item)
+
+[AIuf]
+Name=Нечестивое бешенство
+EditorSuffix=(item)
+
+[AIcm]
+Name=Магический контроль
+EditorSuffix=(item)
+
+[AIfz]
+Name=Перст смерти
+EditorSuffix=(item)
+
+[AIdp]
+Name=Смертельный союз
+EditorSuffix=(item)
+
+[AIdd]
+Name=Защита, Пассивная защита
+EditorSuffix=(item)
+
+[AIbx]
+Name=Сильный удар
+EditorSuffix=(item)
+
+[AIwm]
+Name=Водяной прислужник
+EditorSuffix=(item)
+
+[AIsh]
+Name=Призвать охотника за головами
+EditorSuffix=(item)
+
+[BIsh]
+Bufftip=Дух охотника за головами
+
+[AIgx]
+Name=Аура регенерации
+EditorSuffix=(item)
+
+[AIhl]
+Name=Свет небес
+EditorSuffix=(item)
+
+[AIsz]
+Name=Замедляющий яд
+EditorSuffix=(item)
+
+[AIpz]
+Name=Писк пингвина
+
+[AIfw]
+Name=Ближний бой: бонус к урону от огня
+
+[AIft]
+Name=Ближний бой: бонус к урону от льда
+
+[AIlx]
+Name=Ближний бой: бонус к урону от молнии
+
+[AIcs]
+Name=Критический удар
+EditorSuffix=(item)
+
+[AIdd]
+
+[AIcl]
+Name=Цепная молния
+EditorSuffix=(item)
+
+[AIxk]
+Name=Берсерк
+EditorSuffix=(item)
+
+//----------------------------------------------------
+// Buffs with no in-game text
+// EditorName is for the Object Editor list only
+
+[BIwb]
+EditorName=Паутина
+
+[Btrv]
+EditorName=Teleport Reveal
+
+[AIdg]
+EditorSuffix=(Instant Heal)
+Name=Ритуальный кинжал
+
+[BIhm]
+Bufftip=Ослабление исцеления
+Buffubertip=Восполнение здоровья замедлено.
+
+[AIwd]
+EditorSuffix=(Item)
+
+[AIg2]
+EditorSuffix=(Regenerate),(Regenerate)
+Name=Ритуальный кинжал,Ритуальный кинжал
+
+[AIf2]
+Name=Бонус к ослаблению исцеления при атаке
+
+[AIvg]
+EditorSuffix=(Divinity)
+Name=Временная неуязвимость
+
+[AIts]
+Name=Item Transmute
+
+[AIut]
+Name=Item Furbolg Tracker Summon
+
+[AIa5]
+EditorSuffix=(+5 к ловкости)
+Name=Бонус к характеристикам героя
+
+[AIx3]
+EditorSuffix=(+3 ко всем характеристикам)
+Name=Бонус к характеристикам героя
+
+[AIx4]
+EditorSuffix=(+4 ко всем характеристикам)
+Name=Бонус к характеристикам героя
+
+[AIs5]
+EditorSuffix=(+5 к силе)
+Name=Бонус к характеристикам героя
+
+[AIi5]
+EditorSuffix=(+5 к интеллекту)
+Name=Бонус к характеристикам героя

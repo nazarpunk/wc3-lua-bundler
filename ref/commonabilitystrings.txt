@@ -1,0 +1,178 @@
+//allied building
+[Aall]
+Name="Общие магазины, союзные здания"
+
+//burrow detection, fliers
+[Abdt]
+Name=Обнаружение закопавшихся
+EditorSuffix="(Fliers, Obsolete)"
+
+//purchase (shop)
+[Apit]
+Name=Купить предмет
+
+[Amou]
+Name=Оседлать
+Tip=Сменить облик
+Untip=Вернуть обычный облик
+Ubertip=Меняет облик героя.
+Unubertip=Возвращает герою обычный облик.
+Hotkey=R
+Unhotkey=R
+
+[Ahar]
+Name=Добывать ресурсы
+Tip=Добывать ресурсы
+Ubertip=Добывает золото из рудников и древесину из деревьев.
+Untip=Доставить ресурсы
+Unubertip=Относит добытые ресурсы к ближайшему центру базы.
+Hotkey=G
+Unhotkey=E
+EditorSuffix=(Gold and Lumber)
+
+[Ahrl]
+Name=Добывать ресурсы
+Tip=Добывать ресурсы
+Ubertip=Добывает древесину из деревьев.
+Untip=Доставить ресурсы
+Unubertip=Относит добытые ресурсы в ближайший некрополь или на кладбище.
+Hotkey=G
+Unhotkey=E
+EditorSuffix=(Ghouls Lumber)
+
+[Arev]
+Name=Воскресить героя
+
+[Aawa]
+Name=Мгновенно воскресить героя
+
+// passive 'detector' ability
+[Adet]
+Name=Детектор
+
+[Adt1]
+Name=Детектор
+
+[Adta]
+Name=Обнаружение
+Tip=Обнаружение
+Hotkey=R
+
+[Bdet]
+Bufftip=Обнаружение
+Buffubertip=Противник видит этого воина.
+
+[Bvul]
+Bufftip=Неуязвимость
+Buffubertip=Неуязвимость. Не получает урон от атак. Не может быть целью способностей.
+
+[Bspe]
+Bufftip=Ускорение
+Buffubertip=Передвижение ускорено.
+
+[Bfro]
+Bufftip=Замедление
+Buffubertip=Передвижение замедлено.
+
+// peon/peasant repair ability
+[Arep]
+Name=Ремонтировать
+Tip=Ремонтировать
+Ubertip=Ремонтирует здания и технику за счет ресурсов.
+Untip=|cffc3dbffПКМ – включить автоприменение.|r
+Unubertip=|cffc3dbffПКМ – отключить автоприменение.|r
+Hotkey=R
+Unhotkey=R
+
+// Abilities that need names in the editor
+[AEpa]
+Name=Отравленные стрелы
+Tip="Отравленные стрелы [|cffffcc001-й уровень|r]","Отравленные стрелы [|cffffcc002-й уровень|r]","Отравленные стрелы [|cffffcc003-й уровень|r]"
+Ubertip="+<AHfa,DataA1> урона от огня к атакам. Каждый выстрел расходует ману.","+<AHfa,DataA2> урона от огня к атакам. Каждый выстрел расходует ману.","+<AHfa,DataA3> урона от огня к атакам. Каждый выстрел расходует ману."
+Untip=|cffc3dbffПКМ – включить автоприменение.|r
+Unubertip=|cffc3dbffПКМ – отключить автоприменение.|r
+Hotkey=R
+Unhotkey=R
+Researchtip=Изучить «Отравленные стрелы» [|cffffcc00%d-й уровень|r]
+Researchubertip="Добавляет к атакам урон от огня. |n|n|cffffcc001-й уровень:|r +<AHfa,DataA1> к урону. |n|cffffcc002-й уровень:|r +<AHfa,DataA2> к урону. |n|cffffcc003-й уровень:|r +<AHfa,DataA3> к урону."
+Researchhotkey=R
+
+[AEbu]
+Name=Построить здание (ночные эльфы)
+
+[AGbu]
+Name=Построить здание (наги)
+
+[AHbu]
+Name=Построить здание (Альянс)
+
+[AHer]
+Name=Герой
+
+[ANbu]
+Name=Построить здание (нейтральные)
+
+[AObu]
+Name=Построить здание (Орда)
+
+[ARal]
+Name=Сбор
+
+[AUbu]
+Name=Построить здание (нежить)
+
+[Aalr]
+Name=Тревога
+
+[Aatk]
+Name=Атака
+
+[Afih]
+Name=Пожар (Альянс)
+
+[Afin]
+Name=Пожар (ночные эльфы)
+
+[Afio]
+Name=Пожар (Орда)
+
+[Afir]
+Name=Пожар
+
+[Afiu]
+Name=Пожар (нежить)
+
+[Aloc]
+Name=Саранча
+
+[Amov]
+Name=Передвижение
+
+[Atdp]
+Name=Drop Pilot
+
+[Atlp]
+Name=Погрузить пилота
+
+[Attu]
+Name=Турель
+
+// Stun buff
+[BSTN]
+Bufftip=Оглушение
+Buffubertip="Оглушение. Невозможно двигаться, атаковать и применять способности."
+
+// Pause buff
+[BPSE]
+Bufftip=Оглушение
+Buffubertip=Невозможно двигаться.
+EditorSuffix=(Pause)
+
+[Xbdt]
+EditorName=Reveal (Effect)
+
+[Xbli]
+EditorName=Blight (Effect)
+
+[Xdis]
+EditorName=Hero Dissipate (Effect)

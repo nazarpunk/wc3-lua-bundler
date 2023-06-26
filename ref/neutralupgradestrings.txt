@@ -1,0 +1,11 @@
+// Non-race-specific upgrades
+// glyph of fortification
+[Rgfo]
+Name=Знак укрепления,Знак укрепления,Знак укрепления
+EditorSuffix=(Upgrade 1),(Upgrade 2),(Upgrade 3)
+
+// glyph of ultravision
+[Rguv]
+Name=Знак ночного зрения
+EditorSuffix=(Upgrade)
+

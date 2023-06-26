@@ -1,0 +1,795 @@
+﻿// Vengeance
+[Avng]
+Name=Дух возмездия
+Tip=Дух возмездия
+Ubertip="Призывает из трупа неуязвимого дикого духа. Время существования: <Avng,Dur1> сек. или до гибели аватары."
+Hotkey=V
+Untip=|cffc3dbffПКМ – включить автоприменение.|r
+Unubertip=|cffc3dbffПКМ – отключить автоприменение.|r
+
+[Bvng]
+Bufftip=Дух возмездия
+Buffubertip=Здесь побывал дух возмездия.
+
+// Mana Flare
+[Amfl]
+Name=Вспышка маны
+Tip=Вспышка маны
+Untip=Отменить «Вспышку маны»
+Ubertip="+<Amfl,DataE1> к броне. Испускает отрицательную энергию, которая наносит урон находящимся рядом врагам, когда они применяют способности. |nВремя действия: <Amfl,Dur1> сек."
+Unubertip=Прерывает действие «Вспышки маны».
+Hotkey=F
+Unhotkey=F
+
+[Bmfl]
+Bufftip=Вспышка маны
+Buffubertip="Находящиеся рядом враги получат урон, если применят способность."
+
+[Bmfa]
+Bufftip=Вспышка маны
+Buffubertip="Находящиеся рядом враги получат урон, если применят способность."
+EditorSuffix=(Extra)
+
+// Phase Shift
+[Apsh]
+Name=Фазовый сдвиг
+Tip=Фазовый сдвиг
+Ubertip="При получении урона переходит в иное измерение, получая защиту от дальнейшего урона. |nВремя действия: <Apsh,Dur1> сек."
+Untip=|cffc3dbffПКМ – включить автоприменение.|r
+Unubertip=|cffc3dbffПКМ – отключить автоприменение.|r
+Hotkey=E
+Unhotkey=E
+
+[Bpsh]
+Bufftip=Фазовый сдвиг
+Buffubertip=Временная защита от урона.
+
+// Ethereal
+[Aetl]
+Name=Астральный облик
+Tip=Астральный облик
+Ubertip="Астральные существа не могут атаковать, но могут применять способности. Также они получают больше урона от магических атак и способностей."
+Hotkey=E
+
+// Sphere
+[Asp1]
+Name=Сфера
+EditorSuffix=(Vengeance - Level 1)
+
+// Sphere
+[Asp2]
+Name=Сфера
+EditorSuffix=(Vengeance - Level 2)
+
+// Sphere
+[Asp3]
+Name=Сфера
+EditorSuffix=(Vengeance - Level 3)
+
+// Sphere
+[Asp4]
+Name=Сфера
+EditorSuffix=(Vengeance - Level 4)
+
+// Sphere
+[Asp5]
+Name=Сфера
+EditorSuffix=(Vengeance - Level 5)
+
+// Sphere
+[Asp6]
+Name=Сфера
+EditorSuffix=(Vengeance - Level 6)
+
+// War Club
+[Agra]
+Name=Боевая дубинка
+Tip=Боевая дубинка
+Ubertip="Горный великан вырывает дерево, получая бонус к дальности атаки и возможность наносить осадный урон. |nМаксимум ударов: <Agra,DataE1>."
+Hotkey=W
+
+// Hardened Skin
+[Assk]
+Name=Каменная кожа
+Tip=Каменная кожа
+Ubertip="-<Assk,DataC1> от получаемого горным великаном урона от атак. Минимальный урон от атак: <Assk,DataB1>."
+Hotkey=K
+
+// Resistant Skin
+[Arsk]
+Name=Устойчивая кожа
+Tip=Устойчивая кожа
+Ubertip="Сокращает время действия отрицательных эффектов, дает невосприимчивость к некоторым способностям."
+Hotkey=E
+
+// Taunt
+[Atau]
+Name=Провокация
+Tip=Провокация
+Ubertip="Ближайшие враги (до <Atau,DataA1>) вынуждены атаковать этого воина. Через <Atau,DataE1> сек. «Провокация» снова активируется."
+Ubertip:custom,V0="Ближайшие враги (до <Atau,DataA1>) вынуждены атаковать этого воина."
+Ubertip:custom,V1="Ближайшие враги (до <Atau,DataA1>) вынуждены атаковать этого воина."
+Ubertip:melee,V0="Ближайшие враги (до <Atau,DataA1>) вынуждены атаковать этого воина."
+Hotkey=T
+
+[Btau]
+Bufftip=Провокация
+Buffubertip=Этот воин был спровоцирован и потому невосприимчив.
+
+// Blink
+[AEbl]
+Name=Скачок
+Tip="Скачок [|cffffcc001-й уровень|r]","Скачок [|cffffcc002-й уровень|r]","Скачок [|cffffcc003-й уровень|r]"
+Ubertip="Переносит на короткое расстояние, позволяя мгновенно вступить в бой или выйти из него.","Переносит на короткое расстояние, позволяя мгновенно вступить в бой или выйти из него.","Переносит на короткое расстояние, позволяя мгновенно вступить в бой или выйти из него."
+Hotkey=B
+Researchtip=Изучить «Скачок» [|cffffcc00%d-й уровень|r]
+Researchubertip="Переносит Стража на короткое расстояние, позволяя быстро вступить в бой и выйти из него. |n|n|cffffcc001-й уровень:|r <AEbl,Cool1> сек. восстановления, <AEbl,Cost1> маны. |n|cffffcc001-й уровень:|r <AEbl,Cool2> сек. восстановления, <AEbl,Cost2> маны. |n|cffffcc003-й уровень:|r <AEbl,Cool3> сек. восстановления, <AEbl,Cost3> маны."
+Researchhotkey=B
+
+// Fan of Knives
+[AEfk]
+Name=Веер клинков
+Tip="Веер клинков [|cffffcc001-й уровень|r]","Веер клинков [|cffffcc002-й уровень|r]","Веер клинков [|cffffcc003-й уровень|r]"
+Ubertip="Бросает несколько кинжалов, нанося по <AEfk,DataA1> урона находящимся рядом врагам.","Бросает несколько кинжалов, нанося по <AEfk,DataA2> урона находящимся рядом врагам.","Бросает несколько кинжалов, нанося по <AEfk,DataA3> урона находящимся рядом врагам."
+Hotkey=F
+Researchtip=Изучить «Веер клинков» [|cffffcc00%d-й уровень|r]
+Researchubertip="Бросает несколько кинжалов, нанося урон находящимся рядом врагам. |n|n|cffffcc001-й уровень:|r <AEfk,DataA1> урона каждой цели. |n|cffffcc002-й уровень:|r <AEfk,DataA2> урона каждой цели. |n|cffffcc003-й уровень:|r <AEfk,DataA3> урона каждой цели."
+Researchhotkey=F
+
+// Shadow Strike
+[AEsh]
+Name=Теневой удар
+Tip="Теневой удар [|cffffcc001-й уровень|r]","Теневой удар [|cffffcc002-й уровень|r]","Теневой удар [|cffffcc003-й уровень|r]"
+Ubertip="Бросает отравленный кинжал во врага, нанося <AEsh,DataE1> урона мгновенно и <AEsh,DataA1> урона раз в <AEsh,Cast1> сек. в течение <AEsh,Dur1> сек. Яд временно замедляет передвижение цели.","Бросает отравленный кинжал во врага, нанося <AEsh,DataE2> урона мгновенно и <AEsh,DataA2> урона раз в <AEsh,Cast2> сек. в течение <AEsh,Dur2> сек. Яд временно замедляет передвижение цели.","Бросает отравленный кинжал во врага, нанося <AEsh,DataE3> урона мгновенно и <AEsh,DataA3> урона раз в <AEsh,Cast3> сек. в течение <AEsh,Dur3> сек. Яд временно замедляет передвижение цели."
+Hotkey=D
+Researchtip=Изучить «Теневой удар» [|cffffcc00%d-й уровень|r]
+Researchubertip="Бросает отравленный кинжал, наносящий мгновенный и периодический урон и временно замедляющий передвижение цели. |n|n|cffffcc001-й уровень:|r <AEsh,DataE1> урона мгновенно и <AEsh,DataA1> периодического урона. |n|cffffcc002-й уровень:|r <AEsh,DataE2> урона мгновенно и <AEsh,DataA2> периодического урона. |n|cffffcc003-й уровень:|r <AEsh,DataE3> урона мгновенно и <AEsh,DataA3> периодического урона."
+Researchhotkey=D
+
+// Shadow Strike Non Stack Buff
+[BEsh]
+Bufftip=Теневой удар
+Buffubertip="Периодический урон, передвижение замедлено."
+
+// Shadow Strike Stack Buff
+[BEsi]
+Bufftip=Теневой удар
+Buffubertip="Периодический урон, передвижение замедлено."
+
+// Vengeance
+[AEsv]
+Name=Возмездие
+Tip=Возмездие
+Ubertip="Создает аватару, которая призывает из находящихся рядом трупов неуязвимых духов, атакующих врагов. Когда аватара возмездия погибает, духи исчезают. |nВремя существования: <AEsv,Dur1> сек."
+Hotkey=V
+Researchtip=Изучить «Возмездие»
+Researchubertip="Создает аватару, которая призывает из находящихся рядом трупов неуязвимых духов, атакующих врагов. Когда аватара возмездия погибает, духи исчезают. |nВремя существования: <AEsv,Dur1> сек."
+Researchhotkey=V
+
+[BEsv]
+Bufftip=Возмездие
+Buffubertip=Дух возмездия разгневан.
+
+// Cargo Load entangled mine
+[Slo2]
+Name=Добывать золото
+Tip=Добывать золото
+Ubertip=Отправляет указанного огонька на рудник.
+Hotkey=L
+
+// see unitstrings
+//[Aimp]
+//Name=Vorpal Blades
+//Tip=Vorpal Blades
+//Ubertip="Permits the glaives launched by the Glaive Thrower to strike through initial ground targets and damage those behind."
+
+[Amgl]
+Name=Лунная глефа
+Tip=Лунная глефа
+Ubertip=Позволяют глефам охотниц поражать дополнительные цели.
+
+[Amgr]
+Name=Лунная глефа
+EditorSuffix=(Naisha)
+Tip=Лунная глефа
+Ubertip=Позволяют глефам охотниц поражать дополнительные цели.
+
+[Aspo]
+Name=Замедляющий яд
+Tip=Замедляющий яд
+Ubertip="Отравляет цель, нанося <Aspo,DataA1> урона/сек., а также замедляя ее передвижение на <Aspo,DataB1,%>% и атаку на <Aspo,DataC1,%>%. Время действия: <Aspo,Dur1> сек."
+
+// Slow Poison Non Stack Buff
+[Bspo]
+Bufftip=Замедляющий яд
+Buffubertip="Передвижение и атака замедлены, периодический урон."
+EditorSuffix=(Non-stacking)
+
+// Slow Poison Stack Buff
+[Bssd]
+Bufftip=Замедляющий яд
+Buffubertip="Передвижение и атака замедлены, периодический урон."
+EditorSuffix=(Stacking)
+
+// Shadow Meld passive nighttime cloaking ability, with its "Hide" button
+[Ashm]
+Name=Слияние с тенью
+Tip=Спрятаться
+Ubertip=При использовании ночью запрещает автоматический выбор цели и дает невидимость.
+Hotkey=I
+
+[Sshm]
+Name=Слияние с тенью
+Tip=Спрятаться
+Ubertip=При использовании ночью запрещает автоматический выбор цели и дает невидимость.
+Hotkey=I
+EditorSuffix=(Instant)
+
+// Shadow Meld passive nighttime cloaking ability, with its "Hide" button
+[Ahid]
+Name=Слияние с тенью
+Tip=Спрятаться
+Ubertip=При использовании ночью запрещает автоматический выбор цели и дает невидимость.
+Hotkey=I
+EditorSuffix=(Akama)
+
+// Sentinel
+[Aesn]
+Name=Часовой
+Tip=Часовой
+Ubertip="Отправляет сову на находящееся рядом дерево и открывает обзор в области вокруг него. |nСова обнаруживает невидимые войска. |n Время существования: <Aesn,DataE1> сек."
+Ubertip:custom,V0=Отправляет сову на находящееся рядом дерево и открывает обзор в области вокруг него. |nСова обнаруживает невидимые войска.
+Ubertip:custom,V1=Отправляет сову на находящееся рядом дерево и открывает обзор в области вокруг него. |nСова обнаруживает невидимые войска.
+Ubertip:melee,V0=Отправляет сову на находящееся рядом дерево и открывает обзор в области вокруг него. |nСова обнаруживает невидимые войска.
+Hotkey=E
+
+// Sentinel
+[Aesr]
+Name=Часовой
+EditorSuffix=(Naisha)
+Tip=Часовой
+Ubertip=Отправляет сову на находящееся рядом дерево и открывает обзор в области вокруг него. |nСова обнаруживает невидимые войска.
+Hotkey=E
+
+// Eat Tree
+[Aeat]
+Name=Съесть дерево
+Tip=Съесть дерево
+Ubertip="Поглощает дерево, восполняя <Aeat,DataC1> здоровья за <Aeat,Dur1> сек."
+Hotkey=E
+
+// Moon pool mana battery
+[Ambt]
+Name=Восполнить ману и здоровье
+Tip=Восполнить ману и здоровье
+Ubertip=Восполняет здоровье и ману союзника.
+Untip=|cffc3dbffПКМ – включить автоприменение.|r
+Unubertip=|cffc3dbffПКМ – отключить автоприменение.|r
+Hotkey=R
+Unhotkey=R
+Order=replenish
+
+// Wisp Harvest
+[Awha]
+Name=Добывать ресурсы
+Tip=Добывать ресурсы
+Ubertip=Добывает золото из оплетенных рудников и древесину из деревьев.
+Hotkey=G
+EditorSuffix=(Wisp Gold and Lumber)
+
+// Wisp Harvest (Invulnerable)
+[Awh2]
+Name=Добывать ресурсы
+Tip=Добывать ресурсы
+Ubertip=Добывает золото из оплетенных рудников и древесину из деревьев.
+Hotkey=G
+EditorSuffix=(Wisp Gold and Lumber - Ancient Spirits)
+
+// Detonate
+[Adtn]
+Name=Взорваться
+Tip=Взорваться
+Ubertip="Уничтожает огонька, рассеивая магические эффекты и сжигая по <Adtn,DataA1> маны у находящихся рядом войск. |n|cffffcc00Наносит <Adtn,DataB1> урона призванным целям.|r"
+Hotkey=D
+
+// Wisp Healing
+[Awhe]
+Name=Исцеление
+Tip=Исцеление
+Ubertip=Восполняет здоровье находящимся рядом раненым союзникам.
+Untip=|cffc3dbffПКМ – включить автоприменение.|r
+Unubertip=|cffc3dbffПКМ – отключить автоприменение.|r
+Hotkey=L
+Unhotkey=L
+
+// Entangle
+[Aent]
+Name=Оплести рудник
+Tip=Оплести рудник
+Ubertip="Оплетает корнями рудник, позволяя огонькам добывать золото."
+Hotkey=G
+
+// Entangled Gold Mine Cargo
+[Aenc]
+Name=Добывать золото
+EditorSuffix=(Entangled Gold Mine)
+Tip=Добывать золото
+Ubertip=Приказывает огоньку отправиться на рудник.
+Hotkey=L
+Untip=Прекратить добычу
+Unubertip=Приказывает огонькам покинуть рудник.
+Unhotkey=U
+
+// Root
+[Aroo]
+Name=Пустить корни
+Tip=Пустить корни
+Ubertip="Древо получает укрепленную броню и пускает корни в указанном месте, теряя возможность передвигаться, после чего может выполнять свои основные функции (подготовка войск или – в случае сторожевого древа – защита базы)."
+Hotkey=R
+Untip=Выкопаться
+Unubertip=Приказывает древу выкопаться из земли. Дает возможность передвигаться и тяжелую броню.
+Unhotkey=R
+
+// Bear Form
+[Abrf]
+Name=Облик медведя
+Tip=Облик медведя
+Ubertip="Превращает друида в медведя. Усиливает боевые характеристики, но замедляет регенерацию маны."
+Hotkey=F
+Untip=Облик ночного эльфа
+Unubertip=Превращает друида в ночного эльфа.
+Unhotkey=F
+
+[Sbr2]
+EditorSuffix=(Alternate)
+
+// Crow Form
+[Arav]
+Name=Облик буревестника
+Tip=Облик буревестника
+Ubertip=Превращает друида в буревестника. Позволяет летать.
+Hotkey=F
+Untip=Облик ночного эльфа
+Unubertip=Превращает друида в ночного эльфа.
+Unhotkey=F
+
+[Sra2]
+EditorSuffix=(Alternate)
+
+// Auto-Dispel Magic
+[Aadm]
+Name=Рассеяние чар
+Tip=Рассеяние чар
+Ubertip="Снимает положительные эффекты с врагов и отрицательные с союзников. |n|cffffcc00Наносит <Aadm,DataB1> урона призванным целям.|r"
+Untip=|cffc3dbffПКМ – включить автоприменение.|r
+Unubertip=|cffc3dbffПКМ – отключить автоприменение.|r
+Hotkey=B
+Unhotkey=B
+
+// Spell Immunity
+[Amim]
+Name=Невосприимчивость к магии
+Tip=Невосприимчивость к магии
+Ubertip=Дает невосприимчивость к способностям.
+
+// Ultravision
+[Ault]
+Name=Ночное зрение
+
+//Elune's Grace
+[Aegr]
+Name=Благословение Элуны
+Tip=Благословение Элуны
+Ubertip="-<Aegr,DataA1,%>% к получаемому урону от пронзающих атак и -<Aegr,DataE1,%>% к получаемому урону от способностей и магических атак."
+
+// Mount Hippogryph
+[Acoa]
+Name=Оседлать гиппогрифа
+EditorSuffix=(Old)
+Tip=Оседлать гиппогрифа
+Ubertip="Лучница седлает гиппогрифа и может атаковать с воздуха, но не может спешиться. |n|n|cffffcc00Атакует наземные и воздушные цели.|r"
+Hotkey=U
+Order=mounthippogryph
+
+// Mount Hippogryph
+[Aco2]
+Name=Оседлать гиппогрифа
+Tip=Оседлать гиппогрифа
+Ubertip=Лучница седлает гиппогрифа и может атаковать с воздуха. |n|n|cffffcc00Атакует наземные и воздушные цели.|r
+Hotkey=U
+Order=coupletarget
+
+// Pick up Archer
+[Acoh]
+Name=Взять на спину лучницу
+EditorSuffix=(Old)
+Tip=Взять на спину лучницу
+Ubertip="Гиппогриф берет на спину лучницу, позволяя ей атаковать с воздуха. После этого лучница не может спешиться. |n|n|cffffcc00Атакует наземные и воздушные цели.|r"
+Hotkey=U
+Order=loadarcher
+
+// Pick up Archer
+[Aco3]
+Name=Взять на спину лучницу
+Tip=Взять на спину лучницу
+Ubertip="Гиппогриф берет на спину лучницу, позволяя ей атаковать с воздуха. |n|n|cffffcc00Атакует наземные и воздушные цели.|r"
+Hotkey=U
+Order=coupletarget
+
+// Dismount
+[Adec]
+Name=Спешиться
+Tip=Расседлать гиппогрифа
+Ubertip=Лучница спешивается с гиппогрифа.
+Hotkey=U
+
+// Corrosive Breath
+[Acor]
+Name=Едкое дыхание
+Tip=Едкое дыхание
+Ubertip="Выпускает сгусток едкой желчи, наносящей значительный урон зданиям."
+
+[Bcor]
+Bufftip=Едкое дыхание
+Buffubertip=Периодический урон.
+
+// Mana Burn
+[AEmb]
+Name=Сожжение маны
+Tip="Сожжение маны [|cffffcc001-й уровень|r]","Сожжение маны [|cffffcc002-й уровень|r]","Сожжение маны [|cffffcc003-й уровень|r]"
+Ubertip="Сжигает до <AEmb,DataA1> маны врага и наносит ему столько же урона.","Сжигает до <AEmb,DataA2> маны врага и наносит ему столько же урона.","Сжигает до <AEmb,DataA3> маны врага и наносит ему столько же урона."
+Hotkey=B
+Researchtip=Изучить «Сожжение маны» [|cffffcc00%d-й уровень|r]
+Researchubertip="Сжигает ману врага и наносит ему урон, равный объему сожженной маны. |n|n|cffffcc001-й уровень:|r сжигает до <AEmb,DataA1> маны. |n|cffffcc002-й уровень:|r сжигает до <AEmb,DataA2> маны. |n|cffffcc003-й уровень:|r сжигает до <AEmb,DataA3> маны."
+Researchhotkey=B
+
+// Immolation
+[AEim]
+Name=Обжигающий жар
+Tip="Активировать «Обжигающий жар» [|cffffcc001-й уровень|r]","Активировать «Обжигающий жар» [|cffffcc002-й уровень|r]","Активировать «Обжигающий жар» [|cffffcc003-й уровень|r]"
+Ubertip="При использовании активирует огненную ауру, которая наносит <AEim,DataA1> урона каждые 0,5 сек. находящимся рядом наземным врагам.|nРасходует ману до отмены.","При использовании активирует огненную ауру, которая наносит <AEim,DataA2> урона каждые 0,5 сек. находящимся рядом наземным врагам.|nРасходует ману до отмены.","При использовании активирует огненную ауру, которая наносит <AEim,DataA3> урона каждые 0,5 сек. находящимся рядом наземным врагам.|nРасходует ману до отмены."
+Unubertip=Прерывает «Обжигающий жар». Останавливает расход маны.
+Hotkey=L
+Untip=Отменить «Обжигающий жар»
+Unhotkey=L
+Researchtip=Изучить «Обжигающий жар» [|cffffcc00%d-й уровень|r]
+Researchubertip="Окружает охотника на демонов огнем, который наносит урон находящимся рядом наземным врагам. |nРасходует ману до отмены. |n|n|cffffcc001-й уровень:|r <AEim,DataA1> урона каждые 0,5 сек. |n|cffffcc002-й уровень:|r <AEim,DataA2> урона каждые 0,5 сек. |n|cffffcc003-й уровень:|r <AEim,DataA3> урона каждые 0,5 сек."
+Researchhotkey=L
+
+[BEim]
+Bufftip=Обжигающий жар
+Buffubertip=Находящиеся рядом наземные враги получают периодический урон.
+
+// Evasion
+[AEev]
+Name=Ускользание
+Tip="Ускользание [|cffffcc001-й уровень|r]","Ускользание [|cffffcc002-й уровень|r]","Ускользание [|cffffcc003-й уровень|r]"
+Ubertip="Дает <AEev,DataA1,%>%-й шанс уклониться от атаки.","Дает <AEev,DataA2,%>%-й шанс уклониться от атаки.","Дает <AEev,DataA3,%>%-й шанс уклониться от атаки."
+Researchtip=Изучить «Ускользание» [|cffffcc00%d-й уровень|r]
+Researchubertip="Дает шанс уклониться от атаки. |n|n|cffffcc001-й уровень:|r <AEev,DataA1,%>%-й шанс. |n|cffffcc002-й уровень:|r <AEev,DataA2,%>%-й шанс. |n|cffffcc003-й уровень:|r <AEev,DataA3,%>%-й шанс."
+Researchhotkey=E
+
+// Metamorphosis
+[AEme]
+Name=Метаморфоза
+Tip=Метаморфоза
+Ubertip="Охотник превращается в демона с <AEme,DataE1> здоровья, атакующего в дальнем бою. |nВремя действия: <AEme,HeroDur1> сек."
+Hotkey=T
+Researchtip=Изучить «Метаморфозу»
+Researchubertip="Охотник превращается в демона с <AEme,DataE1> здоровья, атакующего в дальнем бою. |nВремя действия: <AEme,HeroDur1> сек."
+Researchhotkey=T
+Globalmessage=
+Globalsound=
+
+// Illidan Metamorphosis
+[AEIl]
+Name=Метаморфоза
+Tip=Метаморфоза
+Ubertip="Охотник превращается в демона, атакующего в дальнем бою."
+Hotkey=T
+Researchtip=Изучить «Метаморфозу»
+Researchubertip="Охотник превращается в демона, атакующего в дальнем бою."
+Researchhotkey=T
+EditorSuffix=(Illidan)
+Globalmessage=
+Globalsound=
+
+// Illidan Metamorphosis
+[AEvi]
+Name=Метаморфоза
+Tip=Метаморфоза
+Ubertip="Охотник превращается в демона, атакующего в дальнем бою."
+Hotkey=T
+Researchtip=Изучить «Метаморфозу»
+Researchubertip="Охотник превращается в демона, атакующего в дальнем бою."
+Researchhotkey=T
+EditorSuffix=(Evil Illidan)
+Globalmessage=
+Globalsound=
+
+[BEme]
+Bufftip=Метаморфоза
+Buffubertip="Охотник превращается в демона, атакующего в дальнем бою."
+
+// Entangling Roots
+[AEer]
+Name=Гнев деревьев
+Tip="Гнев деревьев [|cffffcc001-й уровень|r]","Гнев деревьев [|cffffcc002-й уровень|r]","Гнев деревьев [|cffffcc003-й уровень|r]"
+Ubertip="Призывает из-под земли корни, которые обездвиживают и обезвреживают врага на <AEer,Dur1> сек. и наносят <AEer,DataA1> урона/сек.","Призывает из-под земли корни, которые обездвиживают и обезвреживают врага на <AEer,Dur2> сек. и наносят <AEer,DataA2> урона/сек.","Призывает из-под земли корни, которые обездвиживают и обезвреживают врага на <AEer,Dur3> сек. и наносят <AEer,DataA3> урона/сек."
+Hotkey=E
+Researchtip=Изучить «Гнев деревьев» [|cffffcc00%d-й уровень|r]
+Researchubertip="Призывает из-под земли корни, которые обездвиживают и обезвреживают цель, а также наносят урон. |n|n|cffffcc001-й уровень:|r <AEer,DataA1> урона/сек. в течение <AEer,Dur1> сек. |n|cffffcc002-й уровень:|r <AEer,DataA2> урона/сек. в течение <AEer,Dur2> сек. |n|cffffcc003-й уровень:|r <AEer,DataA3> урона/сек. в течение <AEer,Dur3> сек."
+Researchubertip:melee,V1="Призывает из-под земли корни, которые обездвиживают и обезвреживают врага, а также наносят урон. |n|n|cffffcc001-й уровень:|r <AEer,DataA1> урона/сек. в течение <AEer,Dur1> сек. |n|cffffcc002-й уровень:|r <AEer,DataA2> урона/сек. в течение <AEer,Dur2> сек. |n|cffffcc003-й уровень:|r <AEer,DataA3> урона/сек. в течение <AEer,Dur3> сек., увеличенная дальность действия."
+Researchhotkey=E
+
+[BEer]
+Bufftip=Гнев деревьев
+Buffubertip="Обездвиженность, периодический урон."
+
+// Force of Nature
+[AEfn]
+Name=Сила природы
+Tip="Сила природы [|cffffcc001-й уровень|r]","Сила природы [|cffffcc002-й уровень|r]","Сила природы [|cffffcc003-й уровень|r]"
+Ubertip="Превращает деревья в небольшой области в <AEfn,DataA1> древней с <efon,realHP> здоровья, наносящих <efon,mindmg1>-<efon,maxdmg1> урона. Улучшения «Силы природы» действуют на древней. |nВремя существования: <AEfn,Dur1> сек. |n|n|cffffcc00Древни атакуют наземные цели.|r","Превращает деревья в обширной области в <AEfn,DataA2> древней с <efon,realHP> здоровья, наносящих <efon,mindmg1>-<efon,maxdmg1> урона. Улучшения «Силы природы» действуют на древней. |nВремя существования: <AEfn,Dur2> сек. |n|n|cffffcc00Древни атакуют наземные цели.|r","Превращает деревья в очень обширной области в <AEfn,DataA3> древней с <efon,realHP> здоровья, наносящих <efon,mindmg1>-<efon,maxdmg1> урона. Улучшения «Силы природы» действуют на древней. |nВремя существования: <AEfn,Dur3> сек. |n|n|cffffcc00Древни атакуют наземные цели.|r"
+Hotkey=F
+Researchtip=Изучить «Силу природы» [|cffffcc00%d-й уровень|r]
+Researchubertip="Превращает деревья в указанной области в древней с <efon,realHP> здоровья, наносящих <efon,mindmg1>-<efon,maxdmg1> урона. Улучшения «Силы природы» действуют на древней. |n|n|cffffcc00Древни атакуют наземные цели.|r |n|n|cffffcc001-й уровень:|r <AEfn,DataA1> древня на <AEfn,Dur1> сек. |n|cffffcc002-й уровень:|r <AEfn,DataA2> древня на <AEfn,Dur2> сек. |n|cffffcc003-й уровень:|r <AEfn,DataA3> древня на <AEfn,Dur3> сек."
+Researchhotkey=F
+
+[BEfn]
+Bufftip=Сила природы
+Buffubertip=Призванные цели получают урон от рассеивающих способностей.
+
+// Thorns Aura
+[AEah]
+Name=Аура шипов
+Tip="Аура шипов [|cffffcc001-й уровень|r]","Аура шипов [|cffffcc002-й уровень|r]","Аура шипов [|cffffcc003-й уровень|r]"
+Ubertip="Дает находящимся рядом союзникам щит, который отражает <AEah,DataA1,%>% получаемого в ближнем бою урона от атак в атакующих врагов.","Дает находящимся рядом союзникам щит, который отражает <AEah,DataA2,%>% получаемого в ближнем бою урона от атак в атакующих врагов.","Дает находящимся рядом союзникам щит, который отражает <AEah,DataA3,%>% получаемого в ближнем бою урона от атак в атакующих врагов."
+Researchtip=Изучить «Ауру шипов» [|cffffcc00%d-й уровень|r]
+Researchubertip="Дает находящимся рядом союзникам щит, который отражает часть получаемого в ближнем бою урона в атакующих врагов. |n|n|cffffcc001-й уровень:|r <AEah,DataA1,%>% урона. |n|cffffcc002-й уровень:|r <AEah,DataA2,%>% урона. |n|cffffcc003-й уровень:|r <AEah,DataA3,%>% урона."
+Researchhotkey=R
+
+
+[BEah]
+Bufftip=Аура шипов
+Buffubertip="Враги, атакующие в ближнем бою, получают урон."
+
+// Tranquility
+[AEtq]
+Name=Спокойствие
+Tip=Спокойствие
+Ubertip="Призывает поток целительной энергии, восполняющей <AEtq,DataA1> здоровья/сек. союзникам в обширной области. |nВремя действия: <AEtq,Dur1> сек."
+Ubertip:custom,V0="Призывает поток целительной энергии, восполняющей <AEtq,DataA1> здоровья/сек. союзникам в обширной области. |nВремя действия: <AEtq,Dur1> сек."
+Ubertip:custom,V1="Призывает поток целительной энергии, восполняющей <AEtq,DataA1> здоровья/сек. союзникам в обширной области. |nВремя действия: <AEtq,Dur1> сек."
+Ubertip:melee,V0="Призывает поток целительной энергии, восполняющей <AEtq,DataA1> здоровья/сек. союзникам в обширной области. |nВремя действия: <AEtq,Dur1> сек."
+Hotkey=T
+Researchtip=Изучить «Спокойствие»
+Researchubertip="Призывает поток целительной энергии, восполняющей <AEtq,DataA1> здоровья/сек. союзникам в обширной области. |nВремя действия: <AEtq,Dur1> сек."
+Researchubertip:custom,V0="Призывает поток целительной энергии, восполняющей <AEtq,DataA1> здоровья/сек. союзникам в обширной области. |nВремя действия: <AEtq,Dur1> сек."
+Researchubertip:custom,V1="Призывает поток целительной энергии, восполняющей <AEtq,DataA1> здоровья/сек. союзникам в обширной области. |nВремя действия: <AEtq,Dur1> сек."
+Researchubertip:melee,V0="Призывает поток целительной энергии, восполняющей <AEtq,DataA1> здоровья/сек. союзникам в обширной области. |nВремя действия: <AEtq,Dur1> сек."
+Researchhotkey=T
+Globalmessage=
+Globalsound=
+
+// Scout
+[AEst]
+Name=Разведка
+Tip="Разведка [|cffffcc001-й уровень|r]","Разведка [|cffffcc002-й уровень|r]","Разведка [|cffffcc003-й уровень|r]"
+Ubertip="Призывает сову для разведки местности. |nСова обнаруживает невидимые войска. |nВремя существования: <AEst,Dur1> сек.","Призывает быструю сову для разведки местности. |nСова обнаруживает невидимые войска. |nВремя существования: <AEst,Dur2> сек.","Призывает очень быструю сову для разведки местности. |nСова обнаруживает невидимые войска. |nВремя существования: <AEst,Dur3> сек."
+Hotkey=C
+Researchtip=Изучить «Разведку» [|cffffcc00%d-й уровень|r]
+Researchubertip="Призывает сову для разведки местности. |nСова обнаруживает невидимые войска. |n|n|cffffcc001-й уровень:|r обычная сова за <AEst,Cost1> маны. |n|cffffcc002-й уровень:|r быстрая сова за <AEst,Cost2> маны. |n|cffffcc003-й уровень:|r очень быстрая сова за <AEst,Cost3> маны."
+Researchhotkey=C
+
+[BEst]
+Bufftip=Разведка
+Buffubertip=Призванные цели получают урон от рассеивающих способностей.
+
+// Searing Arrows
+[AHfa]
+Name=Огненные стрелы
+Tip="Огненные стрелы [|cffffcc001-й уровень|r]","Огненные стрелы [|cffffcc002-й уровень|r]","Огненные стрелы [|cffffcc003-й уровень|r]"
+Ubertip="+<AHfa,DataA1> урона от огня к атакам. Каждый выстрел расходует ману.","+<AHfa,DataA2> урона от огня к атакам. Каждый выстрел расходует ману.","+<AHfa,DataA3> урона от огня к атакам. Каждый выстрел расходует ману."
+Untip=|cffc3dbffПКМ – включить автоприменение.|r
+Unubertip=|cffc3dbffПКМ – отключить автоприменение.|r
+Hotkey=R
+Unhotkey=R
+Researchtip=Изучить «Огненные стрелы» [|cffffcc00%d-й уровень|r]
+Researchubertip="Добавляет к атакам урон от огня. |n|n|cffffcc001-й уровень:|r +<AHfa,DataA1> к урону. |n|cffffcc002-й уровень:|r +<AHfa,DataA2> к урону. |n|cffffcc003-й уровень:|r +<AHfa,DataA3> к урону."
+Researchhotkey=R
+
+// Trueshot Aura
+[AEar]
+Name=Аура меткости
+Tip="Аура меткости [|cffffcc001-й уровень|r]","Аура меткости [|cffffcc002-й уровень|r]","Аура меткости [|cffffcc003-й уровень|r]"
+Ubertip="+<AEar,DataA1,%>% к урону от дальнобойных атак находящихся рядом союзников.","+<AEar,DataA2,%>% к урону от дальнобойных атак находящихся рядом союзников.","+<AEar,DataA3,%>% к урону от дальнобойных атак находящихся рядом союзников."
+Researchtip=Изучить «Ауру меткости» [|cffffcc00%d-й уровень|r]
+Researchubertip="Увеличивает урон от дистанционных атак находящихся рядом союзников. |n|n|cffffcc001-й уровень:|r +<AEar,DataA1,%>% к урону. |n|cffffcc002-й уровень:|r +<AEar,DataA2,%>% к урону. |n|cffffcc003-й уровень:|r +<AEar,DataA3,%>% к урону."
+Researchhotkey=T
+
+[BEar]
+Bufftip=Аура меткости
+Buffubertip=Дальнобойные атаки наносят больше урона.
+
+// Starfall
+[AEsf]
+Name=Звездопад
+Tip=Звездопад
+Ubertip="Обрушивает на находящихся рядом врагов волны падающих звезд. Каждая волна наносит <AEsf,DataA1> урона. |nВремя действия: <AEsf,Dur1> сек."
+Hotkey=F
+Researchtip=Изучить «Звездопад»
+Researchubertip="Обрушивает на находящихся рядом врагов волны падающих звезд. Каждая волна наносит <AEsf,DataA1> урона. |nВремя действия: <AEsf,Dur1> сек."
+Researchhotkey=F
+
+// beefy starfall - campaign spell
+[AEsb]
+Name=Звездопад
+Tip=Звездопад
+Ubertip="Раз в <AEsb,DataB1> сек. обрушивает с неба звезды, наносящие урон находящимся рядом врагам. Каждая волна наносит <AEsb,DataA1> урона. |nВремя действия: <AEsb,Dur1> сек."
+Hotkey=F
+Researchtip=Изучить «Звездопад»
+Researchubertip="Обрушивает на находящихся рядом врагов волны падающих звезд. Каждая волна наносит <AEsb,DataA1> урона. |nВремя действия: <AEsb,Dur1> сек."
+Researchhotkey=F
+EditorSuffix=(more powerful)
+
+// Faerie Fire
+[Afae]
+Name=Волшебный огонь
+Tip=Волшебный огонь
+Ubertip="Ослабляет броню врага на <Afae,DataA1> и раскрывает его местоположение. |nВремя действия: <Afae,Dur1> сек."
+Untip=|cffc3dbffПКМ – включить автоприменение.|r
+Unubertip=|cffc3dbffПКМ – отключить автоприменение.|r
+Hotkey=R
+Unhotkey=R
+
+// Faerie Fire
+[Afa2]
+Name=Волшебный огонь
+EditorSuffix=(Morph)
+Tip=Волшебный огонь
+Ubertip="Ослабляет броню врага на <Afae,DataA1> и раскрывает его местоположение. |nВремя действия: <Afae,Dur1> сек."
+Untip=|cffc3dbffПКМ – включить автоприменение.|r
+Unubertip=|cffc3dbffПКМ – отключить автоприменение.|r
+Hotkey=R
+Unhotkey=R
+
+[Bfae]
+Bufftip=Волшебный огонь
+Buffubertip="Броня ослаблена, местоположение раскрыто."
+
+// Cyclone
+//Unused line: When that unit lands, its movement speed is slowed by a factor of <Acyc,DataC1>, and it will regain 1/<Acyc,DataC1> of its movement every <Acyc,DataB1> seconds.
+[Acyc]
+Name=Смерч
+Tip=Смерч
+Ubertip="Подбрасывает врага в воздух, не позволяя двигаться, атаковать и применять способности. При этом жертву нельзя выбрать целью. Не действует на технику. |nВремя действия: <Acyc,Dur1> сек."
+Hotkey=C
+
+[Bcyc]
+Bufftip=Смерч
+Buffubertip="Невозможно двигаться, атаковать и применять способности."
+
+[Bcy2]
+Bufftip=Смерч
+Buffubertip="Невозможно двигаться, атаковать и применять способности."
+EditorSuffix=(Extra)
+
+// Rejuvenation
+[Arej]
+Name=Омоложение
+Tip=Омоложение
+Ubertip="Восполняет союзнику <Arej,DataA1> здоровья за <Arej,Dur1> сек."
+Hotkey=E
+
+[Brej]
+Bufftip=Омоложение
+Buffubertip=Восполнение здоровья.
+
+// Renew
+[Aren]
+Name=Обновление
+Tip=Обновление
+Ubertip="Исцеляет раненые древа, ремонтирует союзные здания и технику."
+Untip=|cffc3dbffПКМ – включить автоприменение.|r
+Unubertip=|cffc3dbffПКМ – отключить автоприменение.|r
+Hotkey=R
+Unhotkey=R
+
+// Roar
+[Aroa]
+Name=Рев
+Tip=Рев
+Ubertip="+<Aroa,DataA1,%>% к урону находящихся рядом союзников. |nВремя действия: <Aroa,Dur1> сек."
+Hotkey=R
+
+// Roar
+[Ara2]
+Name=Рев
+EditorSuffix=(Morph)
+Tip=Рев
+Ubertip="+<Ara2,DataA1,%>% к урону находящихся рядом союзников. |nВремя действия: <Ara2,Dur1> сек."
+Hotkey=R
+
+[Broa]
+Bufftip=Рев
+Buffubertip=Урон от атак увеличен.
+
+[Alit]
+Name=Грозовая атака
+
+// used by creep ability
+[Bbar]
+Bufftip=Дубовая кожа
+Buffubertip=Броня усилена.
+
+// tree of life upgrade
+[Atol]
+
+
+//----------------------------------------------------
+// Buffs with no in-game text
+// EditorName is for the Object Editor list only
+
+[BEia]
+EditorName=Immolation (Caster)
+
+[Beat]
+EditorName=Eat Tree
+
+[Bgra]
+EditorName=War Club
+
+[Bssi]
+EditorName=Slow Poison (Info)
+
+[AEsd]
+EditorName=Starfall (Target)
+
+[AEtr]
+EditorName=Tranquility (Target)
+
+[Bult]
+EditorName=Ultravision
+
+[XEsf]
+EditorName=Starfall (Effect)
+
+[XEtq]
+EditorName=Tranquility (Effect)
+
+[XEsn]
+EditorName=Sentinel (Effect)
+
+[Xfns]
+EditorName=Building Damage - Night Elf Small
+
+[Xfnm]
+EditorName=Building Damage - Night Elf Medium
+
+[Xfnl]
+EditorName=Building Damage - Night Elf Large
+
+[AIhm]
+Ubertip="Запрещает герою с плащом теней автоматически вступать в бой, теряя невидимость. |n|nСлившиеся с тенью войска также перестают автоматически вступать в бой ночью."
+Name=Слияние с тенью
+Tip=Спрятаться
+Hotkey=I
+
+[Aeib]
+EditorSuffix=(Icon)
+Ubertip=Увеличивают дальность атаки.
+Tip=Улучшенные луки
+Name=Улучшенные луки
+
+[Aemk]
+EditorSuffix=(Icon)
+Ubertip="+<Remk,base1> к урону лучниц и наездниц на гиппогрифах."
+Tip=Тренировка меткости
+Name=Тренировка меткости
+
+[Aews]
+EditorSuffix=(Icon)
+Ubertip="+<Rews,base1> к запасу маны лунных колодцев и +<Rews,base2,%>% к скорости ее регенерации."
+Tip=Лунный фонтан
+Name=Лунный фонтан

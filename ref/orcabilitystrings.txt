@@ -1,0 +1,644 @@
+// burning oil
+[Abof]
+Name=Горючая смесь
+Tip=Горючая смесь
+Ubertip="Покрывает снаряды разрушителей горючей смесью, позволяя им поджигать землю и врагов."
+
+[Bbof]
+Bufftip=Горючая смесь
+Buffubertip=Периодический урон.
+
+// Berserk
+[Absk]
+Name=Берсерк
+Tip=Берсерк
+Ubertip="+<Absk,DataB1,%>% к скорости атаки, но +<Absk,DataC1,%>% к получаемому урону."
+Hotkey=B
+
+[Bbsk]
+Bufftip=Берсерк
+Buffubertip=Наносимый и получаемый от атак урон увеличены.
+
+// Berserker Upgrade
+[Sbsk]
+Name=Улучшение до берсерка
+
+// Reinforced Burrows Upgrade
+[Arbr]
+Name=Укрепленные землянки
+Tip=Укрепленные землянки
+Ubertip=Дает землянкам укрепленную броню.
+
+// Ancestral Spirit
+[Aast]
+Name=Дух предков
+Tip=Дух предков
+Ubertip="Воскрешает павшего таурена со <Aast,DataA1,%>% здоровья. Не действует на героев."
+Hotkey=C
+
+// Disenchant
+[Adch]
+Name=Освобождение от магии
+EditorSuffix=(Old)
+Tip=Освобождение от магии
+Ubertip="Снимает положительные эффекты с войск в указанной области. |n|cffffcc00Наносит <Adch,DataB1> урона призванным целям.|r"
+Hotkey=D
+
+// Disenchant (new)
+[Adcn]
+Name=Освобождение от магии
+Tip=Освобождение от магии
+Ubertip="Снимает положительные эффекты с войск в указанной области. |n|cffffcc00Наносит <Adcn,DataB1> урона призванным целям.|r"
+Hotkey=D
+
+// Corporeal Form
+[Acpf]
+Name=Материальный облик
+Tip=Материальный облик
+Untip=Астральный облик
+Ubertip="Возвращает духостраннику материальный облик, позволяя ему атаковать и получать физический урон."
+Unubertip="Дает невосприимчивость к физическому урону, но не дает атаковать, позволяя при этом применять способности. Увеличивает получаемый урон от магических атак и способностей."
+Hotkey=F
+Unhotkey=F
+
+// Ethereal Form
+[Aetf]
+Name=Астральный облик
+Tip=Астральный облик
+Untip=Материальный облик
+Ubertip="Дает невосприимчивость к физическому урону, но не дает атаковать, позволяя при этом применять способности. Увеличивает получаемый урон от магических атак и способностей."
+Unubertip="Возвращает духостраннику материальный облик, позволяя ему атаковать и получать физический урон."
+Hotkey=F
+Unhotkey=F
+
+// Spirit Link
+[Aspl]
+Name=Духовная связь
+Tip=Духовная связь
+Ubertip="Связывает <Aspl,DataB1> воинов между собой. <Aspl,DataA1,%>% получаемого каждым связанным воином урона распределяется между всеми ними. |nВремя действия: <Aspl,Dur1> сек."
+Hotkey=R
+
+[Bspl]
+Bufftip=Духовная связь
+Buffubertip=Часть получаемого урона распределяется между другими связанными воинами.
+
+// Pack Mule
+[Apak]
+Name=Вьючный мул
+Tip=Вьючный мул
+Ubertip=Позволяет носить (но не использовать) предметы для героев.
+
+// Liquid Fire
+[Aliq]
+Name=Жидкий огонь
+Tip="Жидкий огонь"
+Ubertip="Бросает в здание горючую жидкость, наносящую периодический урон. Здания, пораженные «Жидким огнем», ремонтируются на <Aliq,DataE1,%>% дольше, а их атаки замедляются на <Aliq,DataC1,%>%."
+
+// Unstable Concoction
+[Auco]
+Name=Взрывоопасная смесь
+Tip=Взрывоопасная смесь
+Ubertip="Вызывает взрыв, наносящий <Auco,DataB1> урона воздушной цели и <Auco,DataD1> урона находящимся рядом воздушным врагам."
+Untip=|cffc3dbffПКМ – включить автоприменение.|r
+Unubertip=|cffc3dbffПКМ – отключить автоприменение.|r
+Hotkey=C
+Unhotkey=C
+
+// Healing Wave
+[AOhw]
+Ubertip="Призывает волну энергии, которая последовательно исцеляет до <AOhw,DataB1> союзников, восполняя <AOhw,DataA1> здоровья первой цели и меньше каждой последующей цели."
+Name=Волна исцеления
+Tip="Волна исцеления [|cffffcc001-й уровень|r]","Волна исцеления [|cffffcc002-й уровень|r]","Волна исцеления [|cffffcc003-й уровень|r]"
+Ubertip="Призывает волну энергии, которая последовательно исцеляет до <AOhw,DataB2> союзников, восполняя <AOhw,DataA2> здоровья первой цели и меньше каждой последующей цели.","Призывает волну энергии, которая последовательно исцеляет до <AOhw,DataB3> союзников, восполняя <AOhw,DataA3> здоровья первой цели и меньше каждой последующей цели."
+Hotkey=E
+Researchtip=Изучить «Волну исцеления» [|cffffcc00%d-й уровень|r]
+Researchubertip="Создает волну энергии, которая восполняет здоровье цели и переходит к находящимся рядом союзникам. Эффективность снижается с каждым переходом. |n|n|cffffcc001-й уровень:|r <AOhw,DataA1> здоровья, до <AOhw,DataB1> целей. |n|cffffcc002-й уровень:|r <AOhw,DataA2> здоровья, до <AOhw,DataB2> целей. |n|cffffcc003-й уровень:|r <AOhw,DataA3> здоровья, до <AOhw,DataB3> целей."
+Researchhotkey=E
+
+// Hex
+[AOhx]
+Name=Сглаз
+Tip="Сглаз [|cffffcc001-й уровень|r]","Сглаз [|cffffcc002-й уровень|r]","Сглаз [|cffffcc003-й уровень|r]"
+Ubertip="Превращает врага в случайное животное на <AOhx,Dur1> сек.","Превращает врага в случайное животное на <AOhx,Dur2> сек.","Превращает врага в случайное животное на <AOhx,Dur3> сек."
+Hotkey=X
+Researchtip=Изучить «Сглаз» [|cffffcc00%d-й уровень|r]
+Researchubertip="Превращает врага в случайное животное, не позволяя применять способности. |n|n|cffffcc001-й уровень:|r <AOhx,Dur1> сек. действия. |n|cffffcc002-й уровень:|r <AOhx,Dur2> сек. действия. |n|cffffcc003-й уровень:|r <AOhx,Dur3> сек. действия."
+Researchhotkey=X
+
+[BOhx]
+Bufftip=Сглаз
+Buffubertip=Превращение в животное.
+
+// Serpent Ward
+[AOsw]
+Name=Змеиный идол
+Tip="Змеиный идол [|cffffcc001-й уровень|r]","Змеиный идол [|cffffcc002-й уровень|r]","Змеиный идол [|cffffcc003-й уровень|r]"
+Ubertip="Призывает неподвижного и невосприимчивого к магии идола с <osp1,realHP> прочности, наносящего <osp1,mindmg1>-<osp1,maxdmg1> урона. |nВремя действия: <AOsw,Dur1> сек. |n|n|cffffcc00Идол атакует наземные и воздушные цели.|r","Призывает неподвижного и невосприимчивого к магии идола с <osp2,realHP> прочности, наносящего <osp2,mindmg1>-<osp2,maxdmg1> урона. |nВремя действия: <AOsw,Dur1> сек. |n|n|cffffcc00Идол атакует наземные и воздушные цели.|r","Призывает неподвижного и невосприимчивого к магии идола с <osp3,realHP> прочности, наносящего <osp3,mindmg1>-<osp3,maxdmg1> урона. |nВремя действия: <AOsw,Dur1> сек. |n|n|cffffcc00Идол атакует наземные и воздушные цели.|r"
+Hotkey=W
+Researchtip=Изучить «Змеиного идола» [|cffffcc00%d-й уровень|r]
+Researchubertip="Призывает неподвижного и невосприимчивого к магии идола. |nВремя действия: <AOsw,Dur1> сек. |n|n|cffffcc00Идол атакует наземные и воздушные цели.|r |n|n|cffffcc001-й уровень:|r <osp1,realHP> прочности, <osp1,mindmg1>-<osp1,maxdmg1> урона. |n|cffffcc002-й уровень:|r <osp2,realHP> прочности, <osp2,mindmg1>-<osp2,maxdmg1> урона. |n|cffffcc003-й уровень:|r <osp3,realHP> прочности, <osp3,mindmg1>-<osp3,maxdmg1> урона."
+Researchhotkey=W
+
+// Generic ward buff
+[BOwd]
+Bufftip=Идол
+Buffubertip=Призванные цели получают урон от рассеивающих способностей.
+
+// Voodoo
+[AOvd]
+Name=Страшное вуду
+Tip=Страшное вуду
+Ubertip="Дает неуязвимость союзникам в области вокруг темного охотника. |nСам охотник остается уязвимым. |nВремя действия: <AOvd,Dur1> сек."
+Hotkey=V
+Researchtip=Изучить «Страшное вуду»
+Researchubertip="Дает неуязвимость союзникам в области вокруг темного охотника. |nСам охотник остается уязвимым. |nВремя действия: <AOvd,Dur1> сек."
+Researchhotkey=V
+
+[BOvd]
+Bufftip=Страшное вуду
+Buffubertip=Неуязвимость.
+
+// firebolt
+[Awfb]
+Name=Огненная стрела
+Tip=Огненная стрела
+Ubertip="Выпускает сгусток огня, оглушающий врага."
+Hotkey=F
+EditorSuffix=(Warlock)
+
+[Acha]
+Name=Хаос
+
+[Sca1]
+EditorSuffix=(Grunt)
+
+[Sca2]
+EditorSuffix=(Raider)
+
+[Sca3]
+EditorSuffix=(Shaman)
+
+[Sca4]
+EditorSuffix=(Kodo Beast)
+
+[Sca5]
+EditorSuffix=(Peon)
+
+[Sca6]
+EditorSuffix=(Grommash)
+
+[Achl]
+Name=Chaos Cargo Load
+
+// Pulverize
+[Awar]
+Name=Сокрушение,Сокрушение
+Tip=Сокрушение,Усиленное сокрушение
+Ubertip="С <Awar,DataA1>%-й вероятностью атака нанесет <Awar,DataB1> урона находящимся рядом войскам.","С <Awar,DataA2>%-й вероятностью атака нанесет <Awar,DataB2> урона находящимся рядом войскам."
+
+[Abtl]
+Name=Боевая тревога
+Tip=Боевая тревога
+Ubertip=Отправляет находящихся рядом батраков в землянки защищать базу.
+Hotkey=B
+
+[Astd]
+Name=Отбой
+Tip=Отбой
+Ubertip=Приказывает батракам покинуть землянки и вернуться к работе.
+Hotkey=D
+
+// Ensnare
+[Aens]
+Name=Опутывание
+Tip=Опутывание
+Ubertip="Притягивает врага к земле и обездвиживает его на <Aens,Dur1> сек. Опутанные воздушные цели считаются наземными."
+Hotkey=E
+
+// Ensnare buff on ground units
+[Beng]
+Bufftip=Опутывание
+Buffubertip=Невозможно двигаться и летать.
+EditorSuffix=(Ground)
+
+// Ensnare buff on air units
+[Bena]
+Bufftip=Опутывание
+Buffubertip=Невозможно двигаться и летать.
+EditorSuffix=(Air)
+
+// Pulverize - passive
+[Awar]
+
+// Devour
+[Adev]
+Name=Пожирание
+Tip=Пожирание
+Ubertip="Кодо проглатывает наземного врага и медленно переваривает его, нанося <Advc,DataC1> урона/сек. Если кодо погибает во время переваривания жертвы, она освобождается."
+Hotkey=D
+
+// Devour buff
+[Bdvv]
+Bufftip=Пожирание
+Buffubertip=Периодический урон. Дает пожирателю обзор в прилегающей области.
+
+// Purge (classic)
+[Aprg]
+Name=Развеивание магии
+Tip=Развеивание магии
+Ubertip="Снимает положительные эффекты с цели и замедляет ее передвижение в <Aprg,DataA1> раз. Замедление постепенно рассеивается за <Aprg,Dur1> сек. |n|cffffcc00Наносит <Aprg,DataC1> урона призванным целям.|r"
+Hotkey=G
+
+// Purge (expansion melee)
+[Apg2]
+Name=Развеивание магии
+Tip=Развеивание магии
+Ubertip="Снимает положительные эффекты с цели и обездвиживает ее на <Apg2,DataD1> сек., после чего замедляет ее передвижение в <Apg2,DataA1> раз. Замедление постепенно рассеивается за <Apg2,Dur1> сек. |n|cffffcc00Наносит <Apg2,DataC1> урона призванным целям.|r"
+Hotkey=G
+
+[Bprg]
+Bufftip=Развеивание магии
+Buffubertip="Положительные эффекты сняты, передвижение временно замедлено."
+
+// Lightning Shield
+[Alsh]
+Name=Щит молний
+Tip=Щит молний
+Ubertip="Окружает цель молниями, которые наносят <Alsh,DataA1> урона/сек. находящимся рядом войскам. |nВремя действия: <Alsh,Dur1> сек."
+Hotkey=L
+
+[Blsh]
+Bufftip=Щит молний
+Buffubertip=Находящиеся рядом союзники и враги получают урон.
+
+// Bloodlust
+[Ablo]
+Name=Жажда крови
+Tip=Жажда крови
+Ubertip="+<Ablo,DataA1,%>% к скорости атаки и +<Ablo,DataB1,%>% к скорости передвижения союзника. |nВремя действия: <Ablo,Dur1> сек."
+Untip=|cffc3dbffПКМ – включить автоприменение.|r
+Unubertip=|cffc3dbffПКМ – отключить автоприменение.|r
+Hotkey=B
+Unhotkey=B
+
+[Bblo]
+Bufftip=Жажда крови
+Buffubertip=Атака и передвижение ускорены.
+
+// Sentry Ward
+[Aeye]
+Name=Сторожевой идол
+Tip=Сторожевой идол
+Ubertip="Призывает невидимого неподвижного идола, который открывает обзор в прилегающей области. |nИдол обнаруживает невидимые войска. |nВремя существования: <Aeye,Dur1> сек."
+Hotkey=W
+
+[Beye]
+Bufftip=Сторожевой идол
+Buffubertip=Призванные цели получают урон от рассеивающих способностей.
+
+// Stasis Trap spell
+[Asta]
+Name=Стазисная ловушка
+Tip=Стазисная ловушка
+Ubertip="Призывает невидимого неподвижного идола, который срабатывает при приближении наземных врагов и оглушает их, уничтожая при этом прочие стазисные ловушки в области действия. |nВремя существования: <Asta,Dur1> сек. |nВремя оглушения: <Asta,DataD1> сек."
+Hotkey=T
+
+// Stasis Trap trigger buff
+[Bstt]
+Bufftip=Стазисная ловушка
+Buffubertip=При срабатывании оглушит находящихся рядом наземных врагов.
+
+// Stasis Trap effect buff
+[Bsta]
+Bufftip=Стазисная ловушка
+Buffubertip="Оглушение; невозможно двигаться, атаковать и применять способности."
+
+// Healing Ward
+[Ahwd]
+Name=Исцеляющий идол
+Tip=Исцеляющий идол
+Ubertip="Призывает неподвижного идола, который восполняет союзникам рядом с собой <Aoar,DataA1,%>% запаса здоровья в секунду. Не действует на технику. |nВремя существования: <Ahwd,Dur1> сек."
+Hotkey=E
+EditorSuffix=(Witch Doctor)
+
+[Bhwd]
+Bufftip=Исцеляющий идол
+Buffubertip=Восполняет здоровье находящихся рядом союзников.
+
+// Healing Ward Aura
+[Aoar]
+Name=Аура исцеляющего идола
+EditorSuffix=(Healing Ward)
+
+[Boar]
+Bufftip=Аура исцеляющего идола
+Buffubertip=Ускоряет регенерацию здоровья.
+
+// Envenomed Spears
+[Aven]
+Name=Отравленные копья
+Tip=Отравленные копья
+Ubertip="Яд наносит <Aven,DataA1> урона/сек. |nВремя действия: <Aven,Dur1> сек."
+
+// currently unused
+// Poison Sting
+[Apoi]
+Name=Ядовитое жало
+Hotkey=T
+Tip=Ядовитое жало
+
+// Poison Sting (Orb of Venom)
+[Apo2]
+Name=Ядовитое жало
+Hotkey=T
+Tip=Ядовитое жало
+EditorSuffix=(Orb of Venom)
+
+// Poison Sting Non Stack Buff
+[Bpoi]
+Bufftip=Яд
+Buffubertip=Периодический урон.
+EditorSuffix=(Non-stacking)
+
+// Poison Sting Stack Buff
+[Bpsd]
+Bufftip=Яд
+Buffubertip=Периодический урон.
+EditorSuffix=(Stacking)
+
+[Bpsi]
+EditorName=Poison (Info)
+
+// currently unused
+// Tracking (Passive)
+[Anit]
+Name=Выслеживание
+
+// Spiked Barricades (Passive)
+[Aspi]
+Name=Шипастые укрепления
+
+// Pillage (Passive)
+[Asal]
+Name=Грабеж
+Tip=Грабеж
+Ubertip="Нанося урон зданиям, этот воин добывает ресурсы."
+
+// War Drums Aura
+[Aakb]
+Name=Боевые барабаны
+Tip=Боевые барабаны
+Ubertip=Увеличивает урон от атак находящихся рядом союзников.
+
+[Bakb]
+Bufftip=Боевые барабаны
+Buffubertip=Урон от атак увеличен.
+
+// Wind Walk
+[AOwk]
+Name=Танец ветра
+Tip="Танец ветра [|cffffcc001-й уровень|r]","Танец ветра [|cffffcc002-й уровень|r]","Танец ветра [|cffffcc003-й уровень|r]"
+Ubertip="Дает невидимость и +<AOwk,DataB1,%>% к скорости передвижения на <AOwk,Dur1> сек. Атакуя, мастер клинка становится видимым и наносит <AOwk,DataC1> дополнительного урона.","Дает невидимость и +<AOwk,DataB2,%>% к скорости передвижения на <AOwk,Dur2> сек. Атакуя, мастер клинка становится видимым и наносит <AOwk,DataC2> дополнительного урона.","Дает невидимость и +<AOwk,DataB3,%>% к скорости передвижения на <AOwk,Dur3> сек. Атакуя, мастер клинка становится видимым и наносит <AOwk,DataC3> дополнительного урона."
+Hotkey=W
+Researchtip=Изучить «Танец ветра» [|cffffcc00%d-й уровень|r]
+Researchubertip="Дает невидимость и временно ускоряет передвижение. Атакуя, мастер клинка становится видимым, но при этом наносит больше урона. |n|n|cffffcc001-й уровень:|r +<AOwk,DataB1,%>% к скорости передвижения, +<AOwk,DataC1> к урону, действует <AOwk,Dur1> сек. |n|cffffcc002-й уровень:|r +<AOwk,DataB2,%>% к скорости передвижения, +<AOwk,DataC2> к урону, действует <AOwk,Dur2> сек. |n|cffffcc003-й уровень:|r +<AOwk,DataB3,%>% к скорости передвижения, +<AOwk,DataC3> к урону, действует <AOwk,Dur3> сек."
+Researchhotkey=W
+
+[BOwk]
+Bufftip=Танец ветра
+Buffubertip="Невидимость, передвижение ускорено. Первая атака в состоянии невидимости нанесет больше урона."
+
+// Mirror Image
+[AOmi]
+Name=Зеркальная копия
+Tip="Зеркальная копия [|cffffcc001-й уровень|r]","Зеркальная копия [|cffffcc002-й уровень|r]","Зеркальная копия [|cffffcc003-й уровень|r]"
+Ubertip="Создает <AOmi,DataA1> иллюзорную копию мастера клинка и снимает с него магические эффекты. |nВремя действия: <AOmi,Dur1> сек.","Создает <AOmi,DataA2> иллюзорные копии мастера клинка и снимает с него магические эффекты. |nВремя действия: <AOmi,Dur1> сек.","Создает <AOmi,DataA3> иллюзорные копии мастера клинка и снимает с него магические эффекты. |nВремя действия: <AOmi,Dur1> сек."
+Hotkey=R
+Researchtip=Изучить «Зеркальную копию» [|cffffcc00%d-й уровень|r]
+Researchubertip="Создает иллюзорные копии мастера клинка и снимает с него магические эффекты. |n|n|cffffcc001-й уровень:|r <AOmi,DataA1> иллюзия. |n|cffffcc002-й уровень:|r <AOmi,DataA2> иллюзии. |n|cffffcc003-й уровень:|r <AOmi,DataA3> иллюзии."
+Researchhotkey=R
+
+[BOmi]
+Bufftip=Зеркальная копия
+Buffubertip=Иллюзорная копия мастера клинка.
+
+// Critical Strike
+[AOcr]
+Name=Критический удар
+Tip="Критический удар [|cffffcc001-й уровень|r]","Критический удар [|cffffcc002-й уровень|r]","Критический удар [|cffffcc003-й уровень|r]"
+Ubertip="Дает <AOcr,DataA1>%-й шанс нанести <AOcr,DataB1>-кратный урон при атаке.","Дает <AOcr,DataA2>%-й шанс нанести <AOcr,DataB2>-кратный урон при атаке.","Дает <AOcr,DataA3>%-й шанс нанести <AOcr,DataB3>-кратный урон при атаке."
+Ubertip:custom,V0="Дает <AOcr,DataA1>%-й шанс нанести <AOcr,DataB1>-кратный урон при атаке.","Дает <AOcr,DataA2>%-й шанс нанести <AOcr,DataB2>-кратный урон при атаке.","Дает <AOcr,DataA3>%-й шанс нанести <AOcr,DataB3>-кратный урон при атаке."
+Ubertip:custom,V1="Дает <AOcr,DataA1>%-й шанс нанести <AOcr,DataB1>-кратный урон при атаке.","Дает <AOcr,DataA2>%-й шанс нанести <AOcr,DataB2>-кратный урон при атаке.","Дает <AOcr,DataA3>%-й шанс нанести <AOcr,DataB3>-кратный урон при атаке."
+Ubertip:melee,V0="Дает <AOcr,DataA1>%-й шанс нанести <AOcr,DataB1>-кратный урон при атаке.","Дает <AOcr,DataA2>%-й шанс нанести <AOcr,DataB2>-кратный урон при атаке.","Дает <AOcr,DataA3>%-й шанс нанести <AOcr,DataB3>-кратный урон при атаке."
+Researchtip=Изучить «Критический удар» [|cffffcc00%d-й уровень|r]
+Researchubertip="Дает шанс нанести больше урона при атаке. |n|n|cffffcc001-й уровень:|r <AOcr,DataA1>%-й шанс, <AOcr,DataB1>-кратный урон. |n|cffffcc002-й уровень:|r <AOcr,DataA2>%-й шанс, <AOcr,DataB2>-кратный урон. |n|cffffcc003-й уровень:|r <AOcr,DataA3>%-й шанс, <AOcr,DataB3>-кратный урон."
+Researchubertip:custom,V0="Дает шанс нанести больше урона при атаке. |n|n|cffffcc001-й уровень:|r <AOcr,DataA1>%-й шанс, <AOcr,DataB1>-кратный урон. |n|cffffcc002-й уровень:|r <AOcr,DataA2>%-й шанс, <AOcr,DataB2>-кратный урон. |n|cffffcc003-й уровень:|r <AOcr,DataA3>%-й шанс, <AOcr,DataB3>-кратный урон."
+Researchubertip:custom,V1="Дает шанс нанести больше урона при атаке. |n|n|cffffcc001-й уровень:|r <AOcr,DataA1>%-й шанс, <AOcr,DataB1>-кратный урон. |n|cffffcc002-й уровень:|r <AOcr,DataA2>%-й шанс, <AOcr,DataB2>-кратный урон. |n|cffffcc003-й уровень:|r <AOcr,DataA3>%-й шанс, <AOcr,DataB3>-кратный урон."
+Researchubertip:melee,V0="Дает шанс нанести больше урона при атаке. |n|n|cffffcc001-й уровень:|r <AOcr,DataA1>%-й шанс, <AOcr,DataB1>-кратный урон. |n|cffffcc002-й уровень:|r <AOcr,DataA2>%-й шанс, <AOcr,DataB2>-кратный урон. |n|cffffcc003-й уровень:|r <AOcr,DataA3>%-й шанс, <AOcr,DataB3>-кратный урон."
+Researchhotkey=C
+
+// Bladestorm
+[AOww]
+Name=Вихрь клинков
+Tip=Вихрь клинков
+Ubertip="Окружает мастера клинка вихрем разрушительной силы, который дает невосприимчивость к магии и наносит <AOww,DataA1> урона/сек. находящимся рядом наземным врагам. |nВремя действия: <AOww,Dur1> сек."
+Hotkey=B
+Researchtip=Изучить «Вихрь клинков»
+Researchubertip="Окружает мастера клинка вихрем разрушительной силы, который дает невосприимчивость к магии и наносит <AOww,DataA1> урона/сек. находящимся рядом наземным врагам."
+Researchhotkey=B
+Globalmessage=
+Globalsound=
+
+// Chain Lightning
+[AOcl]
+Name=Цепная молния
+Tip="Цепная молния [|cffffcc001-й уровень|r]","Цепная молния [|cffffcc002-й уровень|r]","Цепная молния [|cffffcc003-й уровень|r]"
+Ubertip="Призывает молнию, которая наносит <AOcl,DataA1> урона цели и рикошетит до <AOcl,DataB1> раз, нанося меньше урона с каждым рикошетом.","Призывает молнию, которая наносит <AOcl,DataA2> урона цели и рикошетит до <AOcl,DataB2> раз, нанося меньше урона с каждым рикошетом.","Призывает молнию, которая наносит <AOcl,DataA3> урона цели и рикошетит до <AOcl,DataB3> раз, нанося меньше урона с каждым рикошетом."
+Hotkey=C
+Researchtip=Изучить «Цепную молнию» [|cffffcc00%d-й уровень|r]
+Researchubertip="Поражает цель молнией, которая рикошетит в находящихся рядом врагов, нанося меньше урона с каждым рикошетом. |n|n|cffffcc001-й уровень:|r <AOcl,DataA1> урона, до <AOcl,DataB1> дополнительных целей. |n|cffffcc002-й уровень:|r <AOcl,DataA2> урона, до <AOcl,DataB2> дополнительных целей. |n|cffffcc003-й уровень:|r <AOcl,DataA3> урона, до <AOcl,DataB3> дополнительных целей."
+Researchhotkey=C
+
+// Far Sight
+[AOfs]
+Name=Дальнее зрение
+Tip="Дальнее зрение [|cffffcc001-й уровень|r]","Дальнее зрение [|cffffcc002-й уровень|r]","Дальнее зрение [|cffffcc003-й уровень|r]"
+Ubertip="Открывает обзор в указанной области на <AOfs,Dur1> сек. Обнаруживает невидимые войска."
+Hotkey=F
+Researchtip=Изучить «Дальнее зрение» [|cffffcc00%d-й уровень|r]
+Researchubertip=Открывает обзор в указанной области и обнаруживает невидимые войска. |n|n|cffffcc001-й уровень:|r небольшая область. |n|cffffcc002-й уровень:|r большая область. |n|cffffcc003-й уровень:|r огромная область.
+Researchubertip:custom,V0="Открывает обзор в указанной области и обнаруживает невидимые войска. |n|n|cffffcc001-й уровень:|r небольшая область, <AOfs,Cost1> маны. |n|cffffcc002-й уровень:|r большая область, <AOfs,Cost2> маны. |n|cffffcc003-й уровень:|r огромная область, <AOfs,Cost3> маны."
+Researchubertip:custom,V1="Открывает обзор в указанной области и обнаруживает невидимые войска. |n|n|cffffcc001-й уровень:|r небольшая область, <AOfs,Cost1> маны. |n|cffffcc002-й уровень:|r большая область, <AOfs,Cost2> маны. |n|cffffcc003-й уровень:|r огромная область, <AOfs,Cost3> маны."
+Researchubertip:melee,V0="Открывает обзор в указанной области и обнаруживает невидимые войска. |n|n|cffffcc001-й уровень:|r небольшая область, <AOfs,Cost1> маны. |n|cffffcc002-й уровень:|r большая область, <AOfs,Cost2> маны. |n|cffffcc003-й уровень:|r огромная область, <AOfs,Cost3> маны."
+Researchhotkey=F
+
+// Feral Spirit
+[AOsf]
+Name=Дух волка
+Tip="Дух волка [|cffffcc001-й уровень|r]","Дух волка [|cffffcc002-й уровень|r]","Дух волка [|cffffcc003-й уровень|r]"
+Ubertip="Призывает <AOsf,DataB1> призрачных волков с <osw1,realHP> здоровья, наносящих <osw1,mindmg1>-<osw1,maxdmg1> урона. |nВремя существования: <AOsf,Dur1> сек. |n|n|cffffcc00Волки атакуют наземные цели.|r","Призывает <AOsf,DataB2> призрачных волков с <osw2,realHP> здоровья, наносящих <osw2,mindmg1>-<osw2,maxdmg1> урона и владеющих «Критическим ударом». |nВремя существования: <AOsf,Dur2> сек. |n|n|cffffcc00Волки атакуют наземные цели.|r","Призывает <AOsf,DataB3> призрачных волков с <osw3,realHP> здоровья, наносящих <osw3,mindmg1>-<osw3,maxdmg1> урона и владеющих «Критическим ударом». Волки невидимы, пока не атакуют. |nВремя существования: <AOsf,Dur3> сек. |n|n|cffffcc00Волки атакуют наземные цели.|r"
+Researchtip=Изучить «Дух волка» [|cffffcc00%d-й уровень|r]
+Researchubertip="Призывает <AOsf,DataB1> призрачных волков. |nВремя существования: <AOsf,Dur1> сек. |n|n|cffffcc001-й уровень:|r <osw1,realHP> здоровья, <osw1,mindmg1>-<osw1,maxdmg1> урона. |n|cffffcc002-й уровень:|r <osw2,realHP> здоровья, <osw2,mindmg1>-<osw2,maxdmg1> урона и «Критический удар». |n|cffffcc003-й уровень:|r <osw3,realHP> здоровья, <osw3,mindmg1>-<osw3,maxdmg1> урона, «Критический удар» и «Невидимость»."
+Hotkey=T
+Researchhotkey=T
+
+
+[BOsf]
+Bufftip=Дух волка
+Buffubertip=Призванные цели получают урон от рассеивающих способностей.
+
+// Earthquake
+[AOeq]
+Name=Землетрясение
+Tip=Землетрясение
+Ubertip="Сотрясает землю в области действия, нанося <AOeq,DataB1> урона/сек. зданиям и замедляя пораженные войска на <AOeq,DataC1,%>%. |nВремя действия: <AOeq,Dur1> сек."
+Hotkey=E
+Researchtip=Изучить «Землетрясение»
+Researchubertip="Сотрясает землю в области действия, нанося <AOeq,DataB1> урона/сек. зданиям и замедляя пораженные войска на <AOeq,DataC1,%>%. Время действия: <AOeq,Dur1> сек."
+Researchhotkey=E
+
+[BOeq]
+Bufftip=Землетрясение
+Buffubertip=Передвижение значительно замедлено.
+
+// Shockwave
+[AOsh]
+Name=Ударная волна
+Tip="Ударная волна [|cffffcc001-й уровень|r]","Ударная волна [|cffffcc002-й уровень|r]","Ударная волна [|cffffcc003-й уровень|r]"
+Ubertip="Выпускает волну энергии, нанося <AOsh,DataA1> урона наземным войскам на прямой линии.","Выпускает волну энергии, нанося <AOsh,DataA2> урона наземным войскам на прямой линии.","Выпускает волну энергии, нанося <AOsh,DataA3> урона наземным войскам на прямой линии."
+Hotkey=W
+Researchtip=Изучить «Ударную волну» [|cffffcc00%d-й уровень|r]
+Researchubertip="Выпускает волну энергии, нанося урон наземным войскам на прямой линии. |n|n|cffffcc001-й уровень:|r <AOsh,DataA1> урона. |n|cffffcc002-й уровень:|r <AOsh,DataA2> урона. |n|cffffcc003-й уровень:|r <AOsh,DataA3> урона."
+Researchhotkey=W
+
+// Endurance Aura
+[AOae]
+Name=Аура выносливости
+Tip="Аура выносливости [|cffffcc001-й уровень|r]","Аура выносливости [|cffffcc002-й уровень|r]","Аура выносливости [|cffffcc003-й уровень|r]"
+Ubertip="+<AOae,DataA1,%>% к скорости передвижения и +<AOae,DataB1,%>% к скорости атаки находящихся рядом союзников.","+<AOae,DataA2,%>% к скорости передвижения и +<AOae,DataB2,%>% к скорости атаки находящихся рядом союзников.","+<AOae,DataA3,%>% к скорости передвижения и +<AOae,DataB3,%>% к скорости атаки находящихся рядом союзников."
+Researchtip=Изучить «Ауру выносливости» [|cffffcc00%d-й уровень|r]
+Researchubertip="Ускоряет передвижение и атаку находящихся рядом союзников. |n|n|cffffcc001-й уровень:|r +<AOae,DataA1,%>% к скорости передвижения, +<AOae,DataB1,%>% к скорости атаки. |n|cffffcc002-й уровень:|r +<AOae,DataA2,%>% к скорости передвижения, +<AOae,DataB2,%>% к скорости атаки. |n|cffffcc003-й уровень:|r +<AOae,DataA3,%>% к скорости передвижения, +<AOae,DataB3,%>% к скорости атаки."
+Researchhotkey=E
+
+[BOae]
+Bufftip=Аура выносливости
+Buffubertip=Атака и передвижение ускорены.
+
+// Reincarnation
+[AOre]
+Name=Реинкарнация
+Tip=Реинкарнация
+Ubertip="Вождь тауренов возрождается после гибели. Время восстановления: <AOre,Cool1> сек."
+Researchtip=Изучить «Реинкарнацию»
+Researchubertip="Вождь тауренов возрождается после гибели. Время восстановления: <AOre,Cool1> сек."
+Researchhotkey=R
+Globalmessage=
+Globalsound=
+
+// War Stomp (Chieftan)
+[AOws]
+Name=Громовая поступь
+Tip="Громовая поступь [|cffffcc001-й уровень|r]","Громовая поступь [|cffffcc002-й уровень|r]","Громовая поступь [|cffffcc003-й уровень|r]"
+Ubertip="Бьет по земле, нанося <AOws,DataA1> урона находящимся рядом наземным врагам и оглушая их на <AOws,Dur1> сек.","Бьет по земле, нанося <AOws,DataA2> урона находящимся рядом наземным врагам и оглушая их на <AOws,Dur2> сек.","Бьет по земле, нанося <AOws,DataA3> урона находящимся рядом наземным врагам и оглушая их на <AOws,Dur3> сек."
+Researchtip=Изучить «Громовую поступь» [|cffffcc00%d-й уровень|r]
+Researchubertip="Бьет по земле, оглушая находящихся рядом наземных врагов и нанося им урон. |n|n|cffffcc001-й уровень:|r <AOws,DataA1> урона, <AOws,Dur1> сек. оглушения. |n|cffffcc002-й уровень:|r <AOws,DataA2> урона, <AOws,Dur2> сек. оглушения. |n|cffffcc003-й уровень:|r <AOws,DataA3> урона, <AOws,Dur3> сек. оглушения."
+Hotkey=T
+Researchhotkey=T
+
+
+[BOws]
+Bufftip=Громовая поступь
+Buffubertip="Невозможно двигаться, атаковать и применять способности."
+
+//----------------------------------------------------
+// Buffs with no in-game text
+// EditorName is for the Object Editor list only
+
+[BOea]
+EditorName=Earthquake (Caster)
+
+[BOsh]
+EditorName=Shockwave (Caster)
+
+[BOvc]
+EditorName=Big Bad Voodoo (Caster)
+
+[BOww]
+EditorName=Bladestorm (Caster)
+
+[Bdig]
+EditorName=Devour (Caster)
+
+[Bens]
+EditorName=Ensnare (General)
+
+[Bliq]
+EditorName=Liquid Fire
+
+[Blsa]
+EditorName=Lightning Shield (Caster)
+
+[XOeq]
+EditorName=Earthquake (Effect)
+
+[XOre]
+EditorName=Reincarnation (Effect)
+
+[Xbof]
+EditorName=Burning Oil (Effect)
+
+[Xfos]
+EditorName=Building Damage - Orc Small
+
+[Xfom]
+EditorName=Building Damage - Orc Medium
+
+[Xfol]
+EditorName=Building Damage - Orc Large
+[BIpb]
+EditorSuffix=(Non-stacking)
+Buffubertip=Периодический урон.
+Bufftip=Яд
+[BIpd]
+EditorSuffix=(Stacking)
+Buffubertip=Периодический урон.
+Bufftip=Яд
+
+[BIpi]
+EditorName=Venom (Info)
+
+[Aobs]
+Ubertip="+<Robs,base1> к запасу здоровья рубак и +<Robs,base2> к урону от их атак."
+EditorSuffix=(Icon)
+Tip=Грубая сила
+Name=Грубая сила
+
+[Aobk]
+EditorSuffix=(Icon)
+Ubertip=Превращает охотников за головами в берсерков. Дает бонус к здоровью и способность «Берсерк».
+Tip=Улучшение до берсерка
+Name=Улучшение до берсерка
+
+[Aorb]
+EditorSuffix=(Icon)
+Ubertip=Дают землянкам и сторожевым башням укрепленную броню.
+Tip=Укрепленные стены
+Name=Укрепленные стены
+
+[Aosp]
+EditorSuffix=(Icon)
+Ubertip="Покрывают здания Орды шипами, которые наносят <Rosp,base1> урона атакующим в ближнем бою врагам, а также дополнительный урон в объеме <Rosp,base2,%>% наносимого атакующими врагами урона.","Покрывают здания Орды шипами, которые наносят <Rosp,base1> урона атакующим в ближнем бою врагам, а также дополнительный урон в объеме <Rosp,base2,%>% наносимого атакующими врагами урона.","Покрывают здания Орды шипами, которые наносят <Rosp,base1> урона атакующим в ближнем бою врагам, а также дополнительный урон в объеме <Rosp,base2,%>% наносимого атакующими врагами урона."
+Tip=Шипастые укрепления,Шипастые укрепления,Улучшенные шипастые укрепления
+Name=Шипастые укрепления,Шипастые укрепления,Улучшенные шипастые укрепления
+
+[Aotr]
+EditorSuffix=(Icon)
+Ubertip="Ускоряет регенерацию здоровья охотников за головами, знахарей и наездников на нетопырях."
+Tip=Регенерация троллей
+Name=Регенерация троллей
+
+[Asa2]
+EditorSuffix:custom,V1=(1,1)
+Ubertip:custom,V1="Нанося урон зданиям, этот воин добывает ресурсы."
+Tip:custom,V1=Грабеж
+Name:custom,V1=Грабеж
