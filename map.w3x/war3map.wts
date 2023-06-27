@@ -161,3 +161,27 @@ STRING 29
 При использовании переносит до <AUds,DataA1> воинов игрока из указанной области к герою
 }
 
+STRING 30
+// Buffs/Effects: BHav (нн), EditorSuffix (Editor Suffix)
+{
+sufix
+}
+
+STRING 31
+// Buffs/Effects: BHav (нн), EditorName (Name (Editor Only))
+{
+нн
+}
+
+STRING 32
+// Buffs/Effects: BHav (нн), Bufftip (Tooltip)
+{
+Аватар
+}
+
+STRING 33
+// Buffs/Effects: BHav (нн), Buffubertip (Tooltip - Extended)
+{
+Бонус к запасу здоровья, урону от атак и броне. Невосприимчивость к способностям
+}
+
