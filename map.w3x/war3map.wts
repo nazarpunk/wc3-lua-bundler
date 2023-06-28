@@ -55,18 +55,6 @@ STRING 11
 Похотинец
 }
 
-STRING 12
-// Doodads: OOal (Алтарь), Name (Name)
-{
-Алтарь
-}
-
-STRING 13
-// Doodads: NOb1 (Мыши), Name (Name)
-{
-Мыши
-}
-
 STRING 14
 // Abilities: ANcl (Канал), EditorSuffix (Editor Suffix)
 {
@@ -162,26 +150,134 @@ STRING 29
 }
 
 STRING 30
-// Buffs/Effects: BHav (нн), EditorSuffix (Editor Suffix)
+// Buffs/Effects: BHav (Эффект), EditorSuffix (Editor Suffix)
 {
 sufix
 }
 
-STRING 31
-// Buffs/Effects: BHav (нн), EditorName (Name (Editor Only))
-{
-нн
-}
-
 STRING 32
-// Buffs/Effects: BHav (нн), Bufftip (Tooltip)
+// Buffs/Effects: BHav (Эффект), Bufftip (Tooltip)
 {
 Аватар
 }
 
 STRING 33
-// Buffs/Effects: BHav (нн), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: BHav (Эффект), Buffubertip (Tooltip - Extended)
 {
 Бонус к запасу здоровья, урону от атак и броне. Невосприимчивость к способностям
+}
+
+STRING 34
+// Destructibles: NTiw (Дерево), EditorSuffix (Editor Suffix)
+{
+Суффикс
+}
+
+STRING 35
+// Destructibles: NTiw (Дерево), Name (Name)
+{
+Дерево
+}
+
+STRING 36
+// Doodads: LOar (Дудад), Name (Name)
+{
+Дудад
+}
+
+STRING 37
+// Buffs/Effects: BHav (Эффект), EditorName (Name (Editor Only))
+{
+Эффект
+}
+
+STRING 38
+// Upgrades: Rhgb (Авиабомбы), effect1 (Effect 1)
+{
+raud
+}
+
+STRING 39
+// Upgrades: Rhgb (Авиабомбы), effect2 (Effect 2)
+{
+rauv
+}
+
+STRING 40
+// Upgrades: Rhgb (Авиабомбы), effect3 (Effect 3)
+{
+ratt
+}
+
+STRING 41
+// Upgrades: Rhgb (Авиабомбы), effect4 (Effect 4)
+{
+rauv
+}
+
+STRING 42
+// Upgrades: Rhgb (Авиабомбы), class (Class)
+{
+armor
+}
+
+STRING 43
+// Upgrades: Rhgb (Авиабомбы), EditorSuffix (Editor Suffix)
+{
+суфикс 1
+}
+
+STRING 44
+// Upgrades: Rhgb (Авиабомбы), EditorSuffix (Editor Suffix)
+{
+суфикс 2
+}
+
+STRING 45
+// Upgrades: Rhgb (Авиабомбы), Hotkey (Hotkey)
+{
+C
+}
+
+STRING 46
+// Upgrades: Rhgb (Авиабомбы), Hotkey (Hotkey)
+{
+D
+}
+
+STRING 47
+// Upgrades: Rhgb (Авиабомбы), Name (Name)
+{
+Авиабомбы.
+}
+
+STRING 48
+// Upgrades: Rhgb (Авиабомбы), Name (Name)
+{
+Авиабомбы.
+}
+
+STRING 49
+// Upgrades: Rhgb (Авиабомбы), Tip (Tooltip)
+{
+Исследовать авиабомбы.
+}
+
+STRING 50
+// Upgrades: Rhgb (Авиабомбы), Tip (Tooltip)
+{
+Исследовать авиабомбы.
+}
+
+STRING 51
+// Upgrades: Rhgb (Авиабомбы), Ubertip (Tooltip - Extended)
+{
+Позволяют ветролетам атаковать наземные цели
+}
+
+STRING 52
+// Upgrades: Rhgb (Авиабомбы), Ubertip (Tooltip - Extended)
+{
+Позволяют ветролетам атаковать наземные цели
 }
 
